@@ -1,0 +1,1316 @@
+DIGEST 3dddd862169fde635f7eb145bb363953
+FRelation
+R15:27 Sets_Theorems <> <> lib
+def 43:45 <> Rel
+R50:52 Axioms <> set prfax
+def 68:72 <> trans
+R79:81 Relation <> Rel def
+binder 75:75 <> R:1
+R89:91 Axioms <> set prfax
+binder 85:85 <> A:2
+binder 106:106 <> x:3
+binder 108:108 <> y:4
+binder 110:110 <> z:5
+R120:123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R131:134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R141:146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R168:179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R193:196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R204:207 Axioms <> :::x_'∈'_x not
+R197:198 Sets <> :::'<|'_x_','_x_'|>' not
+R200:200 Sets <> :::'<|'_x_','_x_'|>' not
+R202:203 Sets <> :::'<|'_x_','_x_'|>' not
+R199:199 Relation <> x:3 var
+R201:201 Relation <> z:5 var
+R208:208 Relation <> R:1 var
+R187:191 Axioms <> :::x_'∈'_x not
+R180:181 Sets <> :::'<|'_x_','_x_'|>' not
+R183:183 Sets <> :::'<|'_x_','_x_'|>' not
+R185:186 Sets <> :::'<|'_x_','_x_'|>' not
+R182:182 Relation <> y:4 var
+R184:184 Relation <> z:5 var
+R192:192 Relation <> R:1 var
+R154:166 Axioms <> :::x_'∈'_x not
+R147:148 Sets <> :::'<|'_x_','_x_'|>' not
+R150:150 Sets <> :::'<|'_x_','_x_'|>' not
+R152:153 Sets <> :::'<|'_x_','_x_'|>' not
+R149:149 Relation <> x:3 var
+R151:151 Relation <> y:4 var
+R167:167 Relation <> R:1 var
+R136:139 Axioms <> :::x_'∈'_x not
+R135:135 Relation <> z:5 var
+R140:140 Relation <> A:2 var
+R125:129 Axioms <> :::x_'∈'_x not
+R124:124 Relation <> y:4 var
+R130:130 Relation <> A:2 var
+R114:118 Axioms <> :::x_'∈'_x not
+R113:113 Relation <> x:3 var
+R119:119 Relation <> A:2 var
+def 223:230 <> not_refl
+R236:238 Relation <> Rel def
+binder 232:232 <> R:6
+R246:248 Axioms <> set prfax
+binder 242:242 <> A:7
+binder 263:263 <> x:8
+R273:276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R277:278 Coq.Init.Logic <> ::type_scope:'~'_x not
+R286:290 Axioms <> :::x_'∈'_x not
+R279:280 Sets <> :::'<|'_x_','_x_'|>' not
+R282:282 Sets <> :::'<|'_x_','_x_'|>' not
+R284:285 Sets <> :::'<|'_x_','_x_'|>' not
+R281:281 Relation <> x:8 var
+R283:283 Relation <> x:8 var
+R291:291 Relation <> R:6 var
+R267:271 Axioms <> :::x_'∈'_x not
+R266:266 Relation <> x:8 var
+R272:272 Relation <> A:7 var
+def 306:309 <> refl
+R316:318 Relation <> Rel def
+binder 312:312 <> R:9
+R326:328 Axioms <> set prfax
+binder 322:322 <> A:10
+binder 343:343 <> x:11
+R353:356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R364:367 Axioms <> :::x_'∈'_x not
+R357:358 Sets <> :::'<|'_x_','_x_'|>' not
+R360:360 Sets <> :::'<|'_x_','_x_'|>' not
+R362:363 Sets <> :::'<|'_x_','_x_'|>' not
+R359:359 Relation <> x:11 var
+R361:361 Relation <> x:11 var
+R368:368 Relation <> R:9 var
+R347:351 Axioms <> :::x_'∈'_x not
+R346:346 Relation <> x:11 var
+R352:352 Relation <> A:10 var
+def 383:387 <> trich
+R394:396 Relation <> Rel def
+binder 390:390 <> R:12
+R404:406 Axioms <> set prfax
+binder 400:400 <> A:13
+binder 421:421 <> x:14
+binder 423:423 <> y:15
+R433:436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R444:449 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R463:466 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R457:461 Axioms <> :::x_'∈'_x not
+R450:451 Sets <> :::'<|'_x_','_x_'|>' not
+R453:453 Sets <> :::'<|'_x_','_x_'|>' not
+R455:456 Sets <> :::'<|'_x_','_x_'|>' not
+R452:452 Relation <> x:14 var
+R454:454 Relation <> y:15 var
+R462:462 Relation <> R:12 var
+R480:483 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R474:478 Axioms <> :::x_'∈'_x not
+R467:468 Sets <> :::'<|'_x_','_x_'|>' not
+R470:470 Sets <> :::'<|'_x_','_x_'|>' not
+R472:473 Sets <> :::'<|'_x_','_x_'|>' not
+R469:469 Relation <> y:15 var
+R471:471 Relation <> x:14 var
+R479:479 Relation <> R:12 var
+R485:487 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R484:484 Relation <> x:14 var
+R488:488 Relation <> y:15 var
+R438:442 Axioms <> :::x_'∈'_x not
+R437:437 Relation <> y:15 var
+R443:443 Relation <> A:13 var
+R427:431 Axioms <> :::x_'∈'_x not
+R426:426 Relation <> x:14 var
+R432:432 Relation <> A:13 var
+def 503:505 <> sym
+R512:514 Relation <> Rel def
+binder 508:508 <> R:16
+R521:523 Axioms <> set prfax
+binder 517:517 <> A:17
+binder 538:538 <> x:18
+binder 540:540 <> y:19
+R550:553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R561:565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R597:597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R579:583 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R573:577 Axioms <> :::x_'∈'_x not
+R566:567 Sets <> :::'<|'_x_','_x_'|>' not
+R569:569 Sets <> :::'<|'_x_','_x_'|>' not
+R571:572 Sets <> :::'<|'_x_','_x_'|>' not
+R568:568 Relation <> x:18 var
+R570:570 Relation <> y:19 var
+R578:578 Relation <> R:16 var
+R591:595 Axioms <> :::x_'∈'_x not
+R584:585 Sets <> :::'<|'_x_','_x_'|>' not
+R587:587 Sets <> :::'<|'_x_','_x_'|>' not
+R589:590 Sets <> :::'<|'_x_','_x_'|>' not
+R586:586 Relation <> y:19 var
+R588:588 Relation <> x:18 var
+R596:596 Relation <> R:16 var
+R555:559 Axioms <> :::x_'∈'_x not
+R554:554 Relation <> y:19 var
+R560:560 Relation <> A:17 var
+R544:548 Axioms <> :::x_'∈'_x not
+R543:543 Relation <> x:18 var
+R549:549 Relation <> A:17 var
+def 613:622 <> semi_order
+R629:631 Relation <> Rel def
+binder 625:625 <> R:20
+R639:641 Axioms <> set prfax
+binder 635:635 <> A:21
+R658:661 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R649:653 Relation <> trans def
+R657:657 Relation <> A:21 var
+R655:655 Relation <> R:20 var
+R662:669 Relation <> not_refl def
+R673:673 Relation <> A:21 var
+R671:671 Relation <> R:20 var
+def 688:698 <> total_order
+R705:707 Relation <> Rel def
+binder 701:701 <> R:22
+R714:716 Axioms <> set prfax
+binder 710:710 <> A:23
+R733:736 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R724:728 Relation <> trans def
+R732:732 Relation <> A:23 var
+R730:730 Relation <> R:22 var
+R749:752 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R737:744 Relation <> not_refl def
+R748:748 Relation <> A:23 var
+R746:746 Relation <> R:22 var
+R753:757 Relation <> trich def
+R761:761 Relation <> A:23 var
+R759:759 Relation <> R:22 var
+def 776:786 <> equivalence
+R793:795 Relation <> Rel def
+binder 789:789 <> R:24
+R803:805 Axioms <> set prfax
+binder 799:799 <> A:25
+R821:824 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R813:816 Relation <> refl def
+R820:820 Relation <> A:25 var
+R818:818 Relation <> R:24 var
+R832:835 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R825:827 Relation <> sym def
+R831:831 Relation <> A:25 var
+R829:829 Relation <> R:24 var
+R836:840 Relation <> trans def
+R844:844 Relation <> A:25 var
+R842:842 Relation <> R:24 var
+def 860:862 <> Dom
+R869:871 Relation <> Rel def
+binder 865:865 <> R:26
+R879:879 Axioms <> :::'{'_x_';'_x_'}' not
+R889:891 Axioms <> :::'{'_x_';'_x_'}' not
+R924:924 Axioms <> :::'{'_x_';'_x_'}' not
+R880:883 Sets <> :::'⊔'_x not
+R884:887 Sets <> :::'⊔'_x not
+R888:888 Relation <> R:26 var
+binder 896:896 <> x:27
+R901:907 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R909:910 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 908:908 <> y:28
+R918:922 Axioms <> :::x_'∈'_x not
+R911:912 Sets <> :::'<|'_x_','_x_'|>' not
+R914:914 Sets <> :::'<|'_x_','_x_'|>' not
+R916:917 Sets <> :::'<|'_x_','_x_'|>' not
+R913:913 Relation <> x:27 var
+R915:915 Relation <> y:28 var
+R923:923 Relation <> R:26 var
+prf 935:937 <> dom
+R944:946 Relation <> Rel def
+binder 940:940 <> R:29
+binder 960:960 <> x:30
+R976:980 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R964:969 Axioms <> :::x_'∈'_x not
+R975:975 Axioms <> :::x_'∈'_x not
+R963:963 Relation <> x:30 var
+R970:972 Relation <> Dom def
+R974:974 Relation <> R:29 var
+R981:987 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R989:990 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 988:988 <> y:31
+R998:1002 Axioms <> :::x_'∈'_x not
+R991:992 Sets <> :::'<|'_x_','_x_'|>' not
+R994:994 Sets <> :::'<|'_x_','_x_'|>' not
+R996:997 Sets <> :::'<|'_x_','_x_'|>' not
+R993:993 Relation <> x:30 var
+R995:995 Relation <> y:31 var
+R1003:1003 Relation <> R:29 var
+R1034:1038 Axioms <> class prfax
+R1034:1038 Axioms <> class prfax
+R1034:1038 Axioms <> class prfax
+R1125:1128 Sets <> cups thm
+R1125:1128 Sets <> cups thm
+R1145:1150 Sets <> Single def
+R1145:1150 Sets <> Single def
+R1187:1192 Sets_Theorems <> single thm
+R1187:1192 Sets_Theorems <> single thm
+R1212:1215 Sets <> cups thm
+R1212:1215 Sets <> cups thm
+R1235:1236 Sets <> :::'<|'_x_','_x_'|>' not
+R1238:1238 Sets <> :::'<|'_x_','_x_'|>' not
+R1240:1241 Sets <> :::'<|'_x_','_x_'|>' not
+R1235:1236 Sets <> :::'<|'_x_','_x_'|>' not
+R1238:1238 Sets <> :::'<|'_x_','_x_'|>' not
+R1240:1241 Sets <> :::'<|'_x_','_x_'|>' not
+R1275:1280 Sets_Theorems <> x_xOPy thm
+R1275:1280 Sets_Theorems <> x_xOPy thm
+def 1350:1352 <> Ran
+R1359:1361 Relation <> Rel def
+binder 1355:1355 <> R:32
+R1369:1369 Axioms <> :::'{'_x_';'_x_'}' not
+R1379:1381 Axioms <> :::'{'_x_';'_x_'}' not
+R1414:1414 Axioms <> :::'{'_x_';'_x_'}' not
+R1370:1373 Sets <> :::'⊔'_x not
+R1374:1377 Sets <> :::'⊔'_x not
+R1378:1378 Relation <> R:32 var
+binder 1386:1386 <> y:33
+R1391:1397 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1399:1400 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1398:1398 <> x:34
+R1408:1412 Axioms <> :::x_'∈'_x not
+R1401:1402 Sets <> :::'<|'_x_','_x_'|>' not
+R1404:1404 Sets <> :::'<|'_x_','_x_'|>' not
+R1406:1407 Sets <> :::'<|'_x_','_x_'|>' not
+R1403:1403 Relation <> x:34 var
+R1405:1405 Relation <> y:33 var
+R1413:1413 Relation <> R:32 var
+prf 1425:1427 <> ran
+R1434:1436 Relation <> Rel def
+binder 1430:1430 <> R:35
+binder 1450:1450 <> y:36
+R1466:1470 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1454:1459 Axioms <> :::x_'∈'_x not
+R1465:1465 Axioms <> :::x_'∈'_x not
+R1453:1453 Relation <> y:36 var
+R1460:1462 Relation <> Ran def
+R1464:1464 Relation <> R:35 var
+R1471:1477 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1479:1480 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1478:1478 <> x:37
+R1488:1492 Axioms <> :::x_'∈'_x not
+R1481:1482 Sets <> :::'<|'_x_','_x_'|>' not
+R1484:1484 Sets <> :::'<|'_x_','_x_'|>' not
+R1486:1487 Sets <> :::'<|'_x_','_x_'|>' not
+R1483:1483 Relation <> x:37 var
+R1485:1485 Relation <> y:36 var
+R1493:1493 Relation <> R:35 var
+R1524:1528 Axioms <> class prfax
+R1524:1528 Axioms <> class prfax
+R1524:1528 Axioms <> class prfax
+R1617:1620 Sets <> cups thm
+R1617:1620 Sets <> cups thm
+R1637:1642 Sets <> Couple prfax
+R1637:1642 Sets <> Couple prfax
+R1679:1682 Sets_Theorems <> y_xy thm
+R1679:1682 Sets_Theorems <> y_xy thm
+R1706:1709 Sets <> cups thm
+R1706:1709 Sets <> cups thm
+R1728:1729 Sets <> :::'<|'_x_','_x_'|>' not
+R1731:1731 Sets <> :::'<|'_x_','_x_'|>' not
+R1733:1734 Sets <> :::'<|'_x_','_x_'|>' not
+R1728:1729 Sets <> :::'<|'_x_','_x_'|>' not
+R1731:1731 Sets <> :::'<|'_x_','_x_'|>' not
+R1733:1734 Sets <> :::'<|'_x_','_x_'|>' not
+R1754:1757 Coq.Init.Logic <> conj constr
+R1760:1766 Sets_Theorems <> xy_xOPy thm
+R1754:1757 Coq.Init.Logic <> conj constr
+R1760:1766 Sets_Theorems <> xy_xOPy thm
+def 1837:1847 <> Restriction
+binder 1849:1849 <> R:38
+binder 1851:1851 <> A:39
+R1858:1859 Axioms <> :::'{'_x_';'_x_'}' not
+R1861:1863 Axioms <> :::'{'_x_';'_x_'}' not
+R1907:1907 Axioms <> :::'{'_x_';'_x_'}' not
+R1860:1860 Relation <> R:38 var
+binder 1868:1868 <> u:40
+R1873:1879 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1883:1884 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1880:1880 <> x:41
+binder 1882:1882 <> y:42
+R1896:1899 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1886:1888 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1885:1885 Relation <> u:40 var
+R1889:1890 Sets <> :::'<|'_x_','_x_'|>' not
+R1892:1892 Sets <> :::'<|'_x_','_x_'|>' not
+R1894:1895 Sets <> :::'<|'_x_','_x_'|>' not
+R1891:1891 Relation <> x:41 var
+R1893:1893 Relation <> y:42 var
+R1901:1905 Axioms <> :::x_'∈'_x not
+R1900:1900 Relation <> x:41 var
+R1906:1906 Relation <> A:39 var
+R1933:1943 Relation <> Restriction def
+not 1919:1919 <> :::x_'↾'_x
+prf 1999:2009 <> restriction
+binder 2011:2011 <> R:43
+binder 2013:2013 <> A:44
+binder 2026:2026 <> u:45
+R2046:2052 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2030:2035 Axioms <> :::x_'∈'_x not
+R2043:2045 Axioms <> :::x_'∈'_x not
+R2029:2029 Relation <> u:45 var
+R2037:2041 Relation <> :::x_'↾'_x not
+R2036:2036 Relation <> R:43 var
+R2042:2042 Relation <> A:44 var
+R2062:2068 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2054:2060 Axioms <> :::x_'∈'_x not
+R2053:2053 Relation <> u:45 var
+R2061:2061 Relation <> R:43 var
+R2069:2075 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2079:2080 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2076:2076 <> x:46
+binder 2078:2078 <> y:47
+R2092:2095 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2082:2084 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2081:2081 Relation <> u:45 var
+R2085:2086 Sets <> :::'<|'_x_','_x_'|>' not
+R2088:2088 Sets <> :::'<|'_x_','_x_'|>' not
+R2090:2091 Sets <> :::'<|'_x_','_x_'|>' not
+R2087:2087 Relation <> x:46 var
+R2089:2089 Relation <> y:47 var
+R2097:2101 Axioms <> :::x_'∈'_x not
+R2096:2096 Relation <> x:46 var
+R2102:2102 Relation <> A:44 var
+R2137:2141 Axioms <> class prfax
+R2137:2141 Axioms <> class prfax
+R2137:2141 Axioms <> class prfax
+def 2164:2167 <> func
+R2174:2176 Relation <> Rel def
+binder 2170:2170 <> f:48
+binder 2190:2190 <> x:49
+R2206:2209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2210:2217 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2219:2220 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 2218:2218 <> y:50
+R2228:2232 Axioms <> :::x_'∈'_x not
+R2221:2222 Sets <> :::'<|'_x_','_x_'|>' not
+R2224:2224 Sets <> :::'<|'_x_','_x_'|>' not
+R2226:2227 Sets <> :::'<|'_x_','_x_'|>' not
+R2223:2223 Relation <> x:49 var
+R2225:2225 Relation <> y:50 var
+R2233:2233 Relation <> f:48 var
+R2194:2199 Axioms <> :::x_'∈'_x not
+R2205:2205 Axioms <> :::x_'∈'_x not
+R2193:2193 Relation <> x:49 var
+R2200:2202 Relation <> Dom def
+R2204:2204 Relation <> f:48 var
+ax 2243:2247 <> Value
+R2254:2257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2261:2264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2265:2267 Axioms <> set prfax
+R2258:2260 Axioms <> set prfax
+R2251:2253 Relation <> Rel def
+ax 2276:2280 <> value
+binder 2293:2293 <> f:52
+binder 2295:2295 <> x:53
+R2304:2308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2327:2331 Axioms <> :::x_'∈'_x not
+R2309:2310 Sets <> :::'<|'_x_','_x_'|>' not
+R2312:2314 Sets <> :::'<|'_x_','_x_'|>' not
+R2324:2326 Sets <> :::'<|'_x_','_x_'|>' not
+R2311:2311 Relation <> x:53 var
+R2315:2319 Relation <> Value prfax
+R2323:2323 Relation <> x:53 var
+R2321:2321 Relation <> f:52 var
+R2332:2332 Relation <> f:52 var
+R2298:2301 Relation <> func def
+R2303:2303 Relation <> f:52 var
+prf 2345:2352 <> eq_value
+R2363:2365 Axioms <> set prfax
+binder 2355:2355 <> f:55
+binder 2357:2357 <> x:56
+binder 2359:2359 <> y:57
+R2378:2381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2395:2399 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2389:2393 Axioms <> :::x_'∈'_x not
+R2382:2383 Sets <> :::'<|'_x_','_x_'|>' not
+R2385:2385 Sets <> :::'<|'_x_','_x_'|>' not
+R2387:2388 Sets <> :::'<|'_x_','_x_'|>' not
+R2384:2384 Relation <> x:56 var
+R2386:2386 Relation <> y:57 var
+R2394:2394 Relation <> f:55 var
+R2401:2404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2414:2414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2400:2400 Relation <> y:57 var
+R2405:2409 Relation <> Value prfax
+R2413:2413 Relation <> x:56 var
+R2411:2411 Relation <> f:55 var
+R2372:2375 Relation <> func def
+R2377:2377 Relation <> f:55 var
+R2453:2457 Relation <> value prfax
+R2453:2457 Relation <> value prfax
+R2496:2501 Axioms <> :::x_'∈'_x not
+R2507:2507 Axioms <> :::x_'∈'_x not
+R2502:2504 Relation <> Dom def
+R2496:2501 Axioms <> :::x_'∈'_x not
+R2507:2507 Axioms <> :::x_'∈'_x not
+R2502:2504 Relation <> Dom def
+R2519:2521 Relation <> dom thm
+R2519:2521 Relation <> dom thm
+R2537:2541 Relation <> Value prfax
+R2537:2541 Relation <> Value prfax
+R2706:2710 Relation <> Value prfax
+R2706:2710 Relation <> Value prfax
+def 2779:2781 <> Map
+R2792:2794 Axioms <> set prfax
+binder 2784:2784 <> F:58
+binder 2786:2786 <> A:59
+binder 2788:2788 <> B:60
+R2808:2811 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2802:2805 Relation <> func def
+R2807:2807 Relation <> F:58 var
+R2821:2824 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2817:2819 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2812:2814 Relation <> Dom def
+R2816:2816 Relation <> F:58 var
+R2820:2820 Relation <> A:59 var
+R2830:2834 Sets <> :::x_'⊂'_x not
+R2825:2827 Relation <> Ran def
+R2829:2829 Relation <> F:58 var
+R2835:2835 Relation <> B:60 var
+R2865:2867 Relation <> Map def
+not 2847:2847 <> :::x_'|'_x_'→'_x
+def 2925:2934 <> Surjection
+R2945:2947 Axioms <> set prfax
+binder 2937:2937 <> F:61
+binder 2939:2939 <> A:62
+binder 2941:2941 <> B:63
+R2966:2969 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2956:2958 Relation <> :::x_'|'_x_'→'_x not
+R2960:2964 Relation <> :::x_'|'_x_'→'_x not
+R2955:2955 Relation <> F:61 var
+R2959:2959 Relation <> A:62 var
+R2965:2965 Relation <> B:63 var
+R2975:2977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2970:2972 Relation <> Ran def
+R2974:2974 Relation <> F:61 var
+R2978:2978 Relation <> B:63 var
+def 2993:3001 <> Injection
+R3012:3014 Axioms <> set prfax
+binder 3004:3004 <> F:64
+binder 3006:3006 <> A:65
+binder 3008:3008 <> B:66
+R3033:3037 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3023:3025 Relation <> :::x_'|'_x_'→'_x not
+R3027:3031 Relation <> :::x_'|'_x_'→'_x not
+R3022:3022 Relation <> F:64 var
+R3026:3026 Relation <> A:65 var
+R3032:3032 Relation <> B:66 var
+binder 3045:3045 <> x:67
+binder 3047:3048 <> x':68
+R3073:3076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3078:3080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3077:3077 Relation <> x:67 var
+R3081:3082 Relation <> x':68 var
+R3060:3062 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3051:3055 Relation <> Value prfax
+R3059:3059 Relation <> x:67 var
+R3057:3057 Relation <> F:64 var
+R3063:3067 Relation <> Value prfax
+R3071:3072 Relation <> x':68 var
+R3069:3069 Relation <> F:64 var
+def 3097:3105 <> Bijection
+R3116:3118 Axioms <> set prfax
+binder 3108:3108 <> F:69
+binder 3110:3110 <> A:70
+binder 3112:3112 <> B:71
+R3137:3140 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3127:3129 Relation <> :::x_'|'_x_'→'_x not
+R3131:3135 Relation <> :::x_'|'_x_'→'_x not
+R3126:3126 Relation <> F:69 var
+R3130:3130 Relation <> A:70 var
+R3136:3136 Relation <> B:71 var
+R3150:3153 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3146:3148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3141:3143 Relation <> Ran def
+R3145:3145 Relation <> F:69 var
+R3149:3149 Relation <> B:71 var
+binder 3161:3161 <> x:72
+binder 3163:3164 <> x':73
+R3189:3192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3194:3196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3193:3193 Relation <> x:72 var
+R3197:3198 Relation <> x':73 var
+R3176:3178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3167:3171 Relation <> Value prfax
+R3175:3175 Relation <> x:72 var
+R3173:3173 Relation <> F:69 var
+R3179:3183 Relation <> Value prfax
+R3187:3188 Relation <> x':73 var
+R3185:3185 Relation <> F:69 var
+def 3226:3230 <> Image
+binder 3232:3232 <> F:74
+binder 3234:3234 <> A:75
+R3239:3241 Relation <> Ran def
+R3245:3249 Relation <> :::x_'↾'_x not
+R3244:3244 Relation <> F:74 var
+R3250:3250 Relation <> A:75 var
+prf 3262:3266 <> image
+binder 3269:3269 <> f:76
+binder 3271:3271 <> A:77
+binder 3285:3285 <> b:78
+R3313:3323 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3290:3302 Axioms <> :::x_'∈'_x not
+R3312:3312 Axioms <> :::x_'∈'_x not
+R3289:3289 Relation <> b:78 var
+R3303:3307 Relation <> Image def
+R3311:3311 Relation <> A:77 var
+R3309:3309 Relation <> f:76 var
+R3324:3332 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3334:3340 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3333:3333 <> a:79
+R3352:3357 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3342:3350 Axioms <> :::x_'∈'_x not
+R3341:3341 Relation <> a:79 var
+R3351:3351 Relation <> A:77 var
+R3365:3374 Axioms <> :::x_'∈'_x not
+R3358:3359 Sets <> :::'<|'_x_','_x_'|>' not
+R3361:3361 Sets <> :::'<|'_x_','_x_'|>' not
+R3363:3364 Sets <> :::'<|'_x_','_x_'|>' not
+R3360:3360 Relation <> a:79 var
+R3362:3362 Relation <> b:78 var
+R3375:3375 Relation <> f:76 var
+R3406:3408 Relation <> ran thm
+R3406:3408 Relation <> ran thm
+R3406:3408 Relation <> ran thm
+R3468:3478 Relation <> restriction thm
+R3468:3478 Relation <> restriction thm
+R3603:3614 Sets_Theorems <> eq_OrderPair thm
+R3603:3614 Sets_Theorems <> eq_OrderPair thm
+R3745:3755 Relation <> restriction thm
+R3745:3755 Relation <> restriction thm
+R3745:3755 Relation <> restriction thm
+R3769:3772 Coq.Init.Logic <> conj constr
+R3769:3772 Coq.Init.Logic <> conj constr
+def 3829:3835 <> Product
+R3844:3846 Axioms <> set prfax
+binder 3838:3838 <> X:80
+binder 3840:3840 <> Y:81
+R3854:3854 Axioms <> :::'{'_x_';'_x_'}' not
+R3868:3869 Axioms <> :::'{'_x_';'_x_'}' not
+R3924:3924 Axioms <> :::'{'_x_';'_x_'}' not
+R3855:3856 Sets <> :::'P['_x_']' not
+R3867:3867 Sets <> :::'P['_x_']' not
+R3857:3858 Sets <> :::'P['_x_']' not
+R3866:3866 Sets <> :::'P['_x_']' not
+R3860:3864 Sets <> :::x_'∪'_x not
+R3859:3859 Relation <> X:80 var
+R3865:3865 Relation <> Y:81 var
+binder 3874:3874 <> u:82
+R3879:3885 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3889:3890 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3886:3886 <> x:83
+binder 3888:3888 <> y:84
+R3898:3901 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3892:3896 Axioms <> :::x_'∈'_x not
+R3891:3891 Relation <> x:83 var
+R3897:3897 Relation <> X:80 var
+R3909:3912 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3903:3907 Axioms <> :::x_'∈'_x not
+R3902:3902 Relation <> y:84 var
+R3908:3908 Relation <> Y:81 var
+R3914:3916 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3913:3913 Relation <> u:82 var
+R3917:3918 Sets <> :::'<|'_x_','_x_'|>' not
+R3920:3920 Sets <> :::'<|'_x_','_x_'|>' not
+R3922:3923 Sets <> :::'<|'_x_','_x_'|>' not
+R3919:3919 Relation <> x:83 var
+R3921:3921 Relation <> y:84 var
+R3949:3955 Relation <> Product def
+not 3936:3936 <> :::x_'×'_x
+prf 3986:3992 <> product
+binder 3994:3994 <> X:85
+binder 3996:3996 <> Y:86
+binder 4009:4009 <> u:87
+R4026:4029 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4013:4018 Axioms <> :::x_'∈'_x not
+R4025:4025 Axioms <> :::x_'∈'_x not
+R4012:4012 Relation <> u:87 var
+R4020:4023 Relation <> :::x_'×'_x not
+R4019:4019 Relation <> X:85 var
+R4024:4024 Relation <> Y:86 var
+R4030:4036 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4040:4041 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4037:4037 <> x:88
+binder 4039:4039 <> y:89
+R4049:4052 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4043:4047 Axioms <> :::x_'∈'_x not
+R4042:4042 Relation <> x:88 var
+R4048:4048 Relation <> X:85 var
+R4060:4063 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4054:4058 Axioms <> :::x_'∈'_x not
+R4053:4053 Relation <> y:89 var
+R4059:4059 Relation <> Y:86 var
+R4065:4067 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4064:4064 Relation <> u:87 var
+R4068:4069 Sets <> :::'<|'_x_','_x_'|>' not
+R4071:4071 Sets <> :::'<|'_x_','_x_'|>' not
+R4073:4074 Sets <> :::'<|'_x_','_x_'|>' not
+R4070:4070 Relation <> x:88 var
+R4072:4072 Relation <> y:89 var
+R4105:4109 Axioms <> class prfax
+R4105:4109 Axioms <> class prfax
+R4105:4109 Axioms <> class prfax
+R4265:4272 Sets <> powerset thm
+R4265:4272 Sets <> powerset thm
+R4306:4313 Sets <> powerset thm
+R4306:4313 Sets <> powerset thm
+R4349:4351 Sets <> cup thm
+R4349:4351 Sets <> cup thm
+R4349:4351 Sets <> cup thm
+R4392:4397 Sets <> couple prfax
+R4392:4397 Sets <> couple prfax
+R4483:4488 Sets_Theorems <> single thm
+R4483:4488 Sets_Theorems <> single thm
+R4529:4537 Coq.Init.Logic <> or_introl constr
+R4529:4537 Coq.Init.Logic <> or_introl constr
+R4575:4580 Sets <> couple prfax
+R4575:4580 Sets <> couple prfax
+R4650:4658 Coq.Init.Logic <> or_introl constr
+R4650:4658 Coq.Init.Logic <> or_introl constr
+R4688:4696 Coq.Init.Logic <> or_intror constr
+R4688:4696 Coq.Init.Logic <> or_intror constr
+R4742:4745 Coq.Init.Logic <> conj constr
+R4751:4754 Coq.Init.Logic <> conj constr
+R4742:4745 Coq.Init.Logic <> conj constr
+R4751:4754 Coq.Init.Logic <> conj constr
+prf 4780:4796 <> prop_implies_func
+R4803:4805 Axioms <> set prfax
+binder 4799:4799 <> A:90
+R4816:4819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4823:4826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4820:4822 Axioms <> set prfax
+R4813:4815 Axioms <> set prfax
+binder 4809:4809 <> P:91
+R4837:4837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4877:4884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4955:4955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4885:4891 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4893:4894 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4892:4892 <> f:92
+R4901:4904 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4895:4898 Relation <> func def
+R4900:4900 Relation <> f:92 var
+R4914:4917 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4910:4912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4905:4907 Relation <> Dom def
+R4909:4909 Relation <> f:92 var
+R4913:4913 Relation <> A:90 var
+binder 4925:4925 <> x:93
+R4935:4938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4954:4954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4939:4939 Relation <> P:91 var
+R4944:4948 Relation <> Value prfax
+R4952:4952 Relation <> x:93 var
+R4950:4950 Relation <> f:92 var
+R4941:4941 Relation <> x:93 var
+R4929:4933 Axioms <> :::x_'∈'_x not
+R4928:4928 Relation <> x:93 var
+R4934:4934 Relation <> A:90 var
+binder 4845:4845 <> x:94
+R4855:4858 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4859:4866 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R4868:4870 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R4876:4876 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 4867:4867 <> y:95
+R4871:4871 Relation <> P:91 var
+R4875:4875 Relation <> y:95 var
+R4873:4873 Relation <> x:94 var
+R4849:4853 Axioms <> :::x_'∈'_x not
+R4848:4848 Relation <> x:94 var
+R4854:4854 Relation <> A:90 var
+R4991:5001 Axioms <> Replacement prfax
+R4991:5001 Axioms <> Replacement prfax
+R5060:5063 Relation <> func def
+R5066:5067 Axioms <> :::'{'_x_';'_x_'}' not
+R5074:5076 Axioms <> :::'{'_x_';'_x_'}' not
+R5118:5118 Axioms <> :::'{'_x_';'_x_'}' not
+R5069:5072 Relation <> :::x_'×'_x not
+binder 5081:5081 <> u:96
+R5086:5092 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5096:5097 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5093:5093 <> x:97
+binder 5095:5095 <> y:98
+R5109:5112 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5099:5101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5098:5098 Relation <> u:96 var
+R5102:5103 Sets <> :::'<|'_x_','_x_'|>' not
+R5105:5105 Sets <> :::'<|'_x_','_x_'|>' not
+R5107:5108 Sets <> :::'<|'_x_','_x_'|>' not
+R5104:5104 Relation <> x:97 var
+R5106:5106 Relation <> y:98 var
+R5117:5117 Relation <> y:98 var
+R5115:5115 Relation <> x:97 var
+R5060:5063 Relation <> func def
+R5066:5067 Axioms <> :::'{'_x_';'_x_'}' not
+R5074:5076 Axioms <> :::'{'_x_';'_x_'}' not
+R5118:5118 Axioms <> :::'{'_x_';'_x_'}' not
+R5069:5072 Relation <> :::x_'×'_x not
+binder 5081:5081 <> u:99
+R5086:5092 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5096:5097 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5093:5093 <> x:100
+binder 5095:5095 <> y:101
+R5109:5112 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5099:5101 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5098:5098 Relation <> u:99 var
+R5102:5103 Sets <> :::'<|'_x_','_x_'|>' not
+R5105:5105 Sets <> :::'<|'_x_','_x_'|>' not
+R5107:5108 Sets <> :::'<|'_x_','_x_'|>' not
+R5104:5104 Relation <> x:100 var
+R5106:5106 Relation <> y:101 var
+R5117:5117 Relation <> y:101 var
+R5115:5115 Relation <> x:100 var
+R5150:5152 Relation <> dom thm
+R5150:5152 Relation <> dom thm
+R5216:5219 Coq.Init.Logic <> conj constr
+R5216:5219 Coq.Init.Logic <> conj constr
+R5234:5238 Axioms <> class prfax
+R5234:5238 Axioms <> class prfax
+R5280:5286 Relation <> product thm
+R5280:5286 Relation <> product thm
+R5401:5412 Sets_Theorems <> eq_OrderPair thm
+R5401:5412 Sets_Theorems <> eq_OrderPair thm
+R5537:5548 Sets_Theorems <> eq_OrderPair thm
+R5537:5548 Sets_Theorems <> eq_OrderPair thm
+R5612:5616 Axioms <> class prfax
+R5612:5616 Axioms <> class prfax
+R5658:5664 Relation <> product thm
+R5658:5664 Relation <> product thm
+R5779:5790 Sets_Theorems <> eq_OrderPair thm
+R5779:5790 Sets_Theorems <> eq_OrderPair thm
+R5916:5927 Sets_Theorems <> eq_OrderPair thm
+R5916:5927 Sets_Theorems <> eq_OrderPair thm
+R6125:6126 Axioms <> :::'{'_x_';'_x_'}' not
+R6133:6135 Axioms <> :::'{'_x_';'_x_'}' not
+R6177:6177 Axioms <> :::'{'_x_';'_x_'}' not
+R6128:6131 Relation <> :::x_'×'_x not
+binder 6140:6140 <> u:102
+R6145:6151 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6155:6156 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6152:6152 <> x:103
+binder 6154:6154 <> y:104
+R6168:6171 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6158:6160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6157:6157 Relation <> u:102 var
+R6161:6162 Sets <> :::'<|'_x_','_x_'|>' not
+R6164:6164 Sets <> :::'<|'_x_','_x_'|>' not
+R6166:6167 Sets <> :::'<|'_x_','_x_'|>' not
+R6163:6163 Relation <> x:103 var
+R6165:6165 Relation <> y:104 var
+R6176:6176 Relation <> y:104 var
+R6174:6174 Relation <> x:103 var
+R6125:6126 Axioms <> :::'{'_x_';'_x_'}' not
+R6133:6135 Axioms <> :::'{'_x_';'_x_'}' not
+R6177:6177 Axioms <> :::'{'_x_';'_x_'}' not
+R6128:6131 Relation <> :::x_'×'_x not
+binder 6140:6140 <> u:105
+R6145:6151 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6155:6156 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 6152:6152 <> x:106
+binder 6154:6154 <> y:107
+R6168:6171 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6158:6160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6157:6157 Relation <> u:105 var
+R6161:6162 Sets <> :::'<|'_x_','_x_'|>' not
+R6164:6164 Sets <> :::'<|'_x_','_x_'|>' not
+R6166:6167 Sets <> :::'<|'_x_','_x_'|>' not
+R6163:6163 Relation <> x:106 var
+R6165:6165 Relation <> y:107 var
+R6176:6176 Relation <> y:107 var
+R6174:6174 Relation <> x:106 var
+R6191:6194 Coq.Init.Logic <> conj constr
+R6191:6194 Coq.Init.Logic <> conj constr
+R6223:6236 Axioms <> Extensionality prfax
+R6223:6236 Axioms <> Extensionality prfax
+R6280:6282 Relation <> dom thm
+R6280:6282 Relation <> dom thm
+R6333:6337 Axioms <> class prfax
+R6333:6337 Axioms <> class prfax
+R6388:6394 Relation <> product thm
+R6388:6394 Relation <> product thm
+R6520:6531 Sets_Theorems <> eq_OrderPair thm
+R6520:6531 Sets_Theorems <> eq_OrderPair thm
+R6583:6585 Relation <> dom thm
+R6583:6585 Relation <> dom thm
+R6583:6585 Relation <> dom thm
+R6702:6706 Axioms <> class prfax
+R6702:6706 Axioms <> class prfax
+R6736:6742 Relation <> product thm
+R6736:6742 Relation <> product thm
+R7031:7033 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7034:7038 Relation <> Value prfax
+R7041:7041 Axioms <> :::'{'_x_';'_x_'}' not
+R7048:7049 Axioms <> :::'{'_x_';'_x_'}' not
+R7106:7106 Axioms <> :::'{'_x_';'_x_'}' not
+R7043:7046 Relation <> :::x_'×'_x not
+R7058:7060 Axioms <> set prfax
+binder 7054:7054 <> u:108
+R7065:7071 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7081:7082 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7078:7080 Axioms <> set prfax
+binder 7072:7072 <> x:109
+R7078:7080 Axioms <> set prfax
+binder 7074:7074 <> y:110
+R7097:7100 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7084:7086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7083:7083 Relation <> u:108 var
+R7087:7089 Sets <> :::'<|'_x_','_x_'|>' not
+R7091:7092 Sets <> :::'<|'_x_','_x_'|>' not
+R7094:7096 Sets <> :::'<|'_x_','_x_'|>' not
+R7090:7090 Relation <> x:109 var
+R7093:7093 Relation <> y:110 var
+R7105:7105 Relation <> y:110 var
+R7103:7103 Relation <> x:109 var
+R7031:7033 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7034:7038 Relation <> Value prfax
+R7041:7041 Axioms <> :::'{'_x_';'_x_'}' not
+R7048:7049 Axioms <> :::'{'_x_';'_x_'}' not
+R7106:7106 Axioms <> :::'{'_x_';'_x_'}' not
+R7043:7046 Relation <> :::x_'×'_x not
+R7058:7060 Axioms <> set prfax
+binder 7054:7054 <> u:111
+R7065:7071 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7081:7082 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7078:7080 Axioms <> set prfax
+binder 7072:7072 <> x:112
+R7078:7080 Axioms <> set prfax
+binder 7074:7074 <> y:113
+R7097:7100 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7084:7086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7083:7083 Relation <> u:111 var
+R7087:7089 Sets <> :::'<|'_x_','_x_'|>' not
+R7091:7092 Sets <> :::'<|'_x_','_x_'|>' not
+R7094:7096 Sets <> :::'<|'_x_','_x_'|>' not
+R7090:7090 Relation <> x:112 var
+R7093:7093 Relation <> y:113 var
+R7105:7105 Relation <> y:113 var
+R7103:7103 Relation <> x:112 var
+R7124:7131 Relation <> eq_value thm
+R7124:7131 Relation <> eq_value thm
+R7151:7155 Axioms <> class prfax
+R7151:7155 Axioms <> class prfax
+R7179:7185 Relation <> product thm
+R7179:7185 Relation <> product thm
+def 7305:7311 <> Reverse
+R7318:7320 Relation <> Rel def
+binder 7314:7314 <> R:114
+R7328:7328 Axioms <> :::'{'_x_';'_x_'}' not
+R7348:7351 Axioms <> :::'{'_x_';'_x_'}' not
+R7401:7401 Axioms <> :::'{'_x_';'_x_'}' not
+R7329:7329 Relation <> :::x_'×'_x not
+R7335:7340 Relation <> :::x_'×'_x not
+R7347:7347 Relation <> :::x_'×'_x not
+R7330:7332 Relation <> Ran def
+R7334:7334 Relation <> R:114 var
+R7341:7343 Relation <> Dom def
+R7346:7346 Relation <> R:114 var
+binder 7356:7356 <> u:115
+R7361:7367 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7371:7372 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7368:7368 <> x:116
+binder 7370:7370 <> y:117
+R7384:7387 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7374:7376 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7373:7373 Relation <> u:115 var
+R7377:7378 Sets <> :::'<|'_x_','_x_'|>' not
+R7380:7380 Sets <> :::'<|'_x_','_x_'|>' not
+R7382:7383 Sets <> :::'<|'_x_','_x_'|>' not
+R7379:7379 Relation <> y:117 var
+R7381:7381 Relation <> x:116 var
+R7395:7399 Axioms <> :::x_'∈'_x not
+R7388:7389 Sets <> :::'<|'_x_','_x_'|>' not
+R7391:7391 Sets <> :::'<|'_x_','_x_'|>' not
+R7393:7394 Sets <> :::'<|'_x_','_x_'|>' not
+R7390:7390 Relation <> x:116 var
+R7392:7392 Relation <> y:117 var
+R7400:7400 Relation <> R:114 var
+prf 7413:7419 <> reverse
+R7426:7428 Relation <> Rel def
+binder 7422:7422 <> R:118
+binder 7442:7442 <> x:119
+binder 7444:7444 <> y:120
+R7470:7474 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7454:7459 Axioms <> :::x_'∈'_x not
+R7469:7469 Axioms <> :::x_'∈'_x not
+R7447:7448 Sets <> :::'<|'_x_','_x_'|>' not
+R7450:7450 Sets <> :::'<|'_x_','_x_'|>' not
+R7452:7453 Sets <> :::'<|'_x_','_x_'|>' not
+R7449:7449 Relation <> x:119 var
+R7451:7451 Relation <> y:120 var
+R7460:7466 Relation <> Reverse def
+R7468:7468 Relation <> R:118 var
+R7482:7486 Axioms <> :::x_'∈'_x not
+R7475:7476 Sets <> :::'<|'_x_','_x_'|>' not
+R7478:7478 Sets <> :::'<|'_x_','_x_'|>' not
+R7480:7481 Sets <> :::'<|'_x_','_x_'|>' not
+R7477:7477 Relation <> y:120 var
+R7479:7479 Relation <> x:119 var
+R7487:7487 Relation <> R:118 var
+R7521:7525 Axioms <> class prfax
+R7521:7525 Axioms <> class prfax
+R7521:7525 Axioms <> class prfax
+R7669:7680 Sets_Theorems <> eq_OrderPair thm
+R7669:7680 Sets_Theorems <> eq_OrderPair thm
+R7743:7749 Relation <> product thm
+R7743:7749 Relation <> product thm
+R7792:7794 Relation <> ran thm
+R7792:7794 Relation <> ran thm
+R7792:7794 Relation <> ran thm
+R7811:7813 Relation <> dom thm
+R7811:7813 Relation <> dom thm
+R7811:7813 Relation <> dom thm
+def 7949:7959 <> Composition
+R7968:7970 Relation <> Rel def
+binder 7962:7962 <> G:121
+binder 7964:7964 <> F:122
+R7975:7977 Relation <> Rel def
+R7984:7984 Axioms <> :::'{'_x_';'_x_'}' not
+R8003:8005 Axioms <> :::'{'_x_';'_x_'}' not
+R8074:8075 Axioms <> :::'{'_x_';'_x_'}' not
+R7985:7985 Relation <> :::x_'×'_x not
+R7991:7996 Relation <> :::x_'×'_x not
+R8002:8002 Relation <> :::x_'×'_x not
+R7986:7988 Relation <> Dom def
+R7990:7990 Relation <> F:122 var
+R7997:7999 Relation <> Ran def
+R8001:8001 Relation <> G:121 var
+binder 8010:8010 <> u:123
+R8015:8021 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8027:8028 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8022:8022 <> x:124
+binder 8024:8024 <> y:125
+binder 8026:8026 <> z:126
+R8040:8043 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8030:8032 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8029:8029 Relation <> u:123 var
+R8033:8034 Sets <> :::'<|'_x_','_x_'|>' not
+R8036:8036 Sets <> :::'<|'_x_','_x_'|>' not
+R8038:8039 Sets <> :::'<|'_x_','_x_'|>' not
+R8035:8035 Relation <> x:124 var
+R8037:8037 Relation <> z:126 var
+R8057:8060 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8051:8055 Axioms <> :::x_'∈'_x not
+R8044:8045 Sets <> :::'<|'_x_','_x_'|>' not
+R8047:8047 Sets <> :::'<|'_x_','_x_'|>' not
+R8049:8050 Sets <> :::'<|'_x_','_x_'|>' not
+R8046:8046 Relation <> x:124 var
+R8048:8048 Relation <> y:125 var
+R8056:8056 Relation <> F:122 var
+R8068:8072 Axioms <> :::x_'∈'_x not
+R8061:8062 Sets <> :::'<|'_x_','_x_'|>' not
+R8064:8064 Sets <> :::'<|'_x_','_x_'|>' not
+R8066:8067 Sets <> :::'<|'_x_','_x_'|>' not
+R8063:8063 Relation <> y:125 var
+R8065:8065 Relation <> z:126 var
+R8073:8073 Relation <> G:121 var
+R8101:8111 Relation <> Composition def
+not 8087:8087 <> :::x_'○'_x
+prf 8141:8151 <> composition
+binder 8154:8154 <> G:127
+binder 8156:8156 <> F:128
+binder 8172:8172 <> u:129
+R8190:8194 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8176:8181 Axioms <> :::x_'∈'_x not
+R8189:8189 Axioms <> :::x_'∈'_x not
+R8175:8175 Relation <> u:129 var
+R8183:8187 Relation <> :::x_'○'_x not
+R8182:8182 Relation <> G:127 var
+R8188:8188 Relation <> F:128 var
+R8195:8201 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8207:8208 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8202:8202 <> x:130
+binder 8204:8204 <> y:131
+binder 8206:8206 <> z:132
+R8220:8223 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8210:8212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8209:8209 Relation <> u:129 var
+R8213:8214 Sets <> :::'<|'_x_','_x_'|>' not
+R8216:8216 Sets <> :::'<|'_x_','_x_'|>' not
+R8218:8219 Sets <> :::'<|'_x_','_x_'|>' not
+R8215:8215 Relation <> x:130 var
+R8217:8217 Relation <> z:132 var
+R8237:8240 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8231:8235 Axioms <> :::x_'∈'_x not
+R8224:8225 Sets <> :::'<|'_x_','_x_'|>' not
+R8227:8227 Sets <> :::'<|'_x_','_x_'|>' not
+R8229:8230 Sets <> :::'<|'_x_','_x_'|>' not
+R8226:8226 Relation <> x:130 var
+R8228:8228 Relation <> y:131 var
+R8236:8236 Relation <> F:128 var
+R8248:8252 Axioms <> :::x_'∈'_x not
+R8241:8242 Sets <> :::'<|'_x_','_x_'|>' not
+R8244:8244 Sets <> :::'<|'_x_','_x_'|>' not
+R8246:8247 Sets <> :::'<|'_x_','_x_'|>' not
+R8243:8243 Relation <> y:131 var
+R8245:8245 Relation <> z:132 var
+R8253:8253 Relation <> G:127 var
+R8284:8288 Axioms <> class prfax
+R8284:8288 Axioms <> class prfax
+R8284:8288 Axioms <> class prfax
+R8468:8474 Relation <> product thm
+R8468:8474 Relation <> product thm
+R8468:8474 Relation <> product thm
+R8532:8534 Relation <> dom thm
+R8532:8534 Relation <> dom thm
+R8532:8534 Relation <> dom thm
+R8606:8608 Relation <> ran thm
+R8606:8608 Relation <> ran thm
+R8606:8608 Relation <> ran thm
+R8713:8716 Coq.Init.Logic <> conj constr
+R8724:8727 Coq.Init.Logic <> conj constr
+R8713:8716 Coq.Init.Logic <> conj constr
+R8724:8727 Coq.Init.Logic <> conj constr
+def 8765:8771 <> eqClass
+R8778:8780 Relation <> Rel def
+binder 8774:8774 <> R:133
+R8788:8790 Axioms <> set prfax
+binder 8784:8784 <> A:134
+R8798:8808 Relation <> equivalence def
+R8812:8812 Relation <> A:134 var
+R8810:8810 Relation <> R:133 var
+binder 8794:8794 <> H:135
+R8820:8822 Axioms <> set prfax
+binder 8816:8816 <> x:136
+R8830:8831 Axioms <> :::'{'_x_';'_x_'}' not
+R8833:8835 Axioms <> :::'{'_x_';'_x_'}' not
+R8858:8858 Axioms <> :::'{'_x_';'_x_'}' not
+R8832:8832 Relation <> A:134 var
+binder 8840:8840 <> y:137
+R8852:8856 Axioms <> :::x_'∈'_x not
+R8845:8846 Sets <> :::'<|'_x_','_x_'|>' not
+R8848:8848 Sets <> :::'<|'_x_','_x_'|>' not
+R8850:8851 Sets <> :::'<|'_x_','_x_'|>' not
+R8847:8847 Relation <> x:136 var
+R8849:8849 Relation <> y:137 var
+R8857:8857 Relation <> R:133 var
+prf 8870:8876 <> eqclass
+R8884:8886 Relation <> Rel def
+binder 8880:8880 <> R:138
+R8894:8896 Axioms <> set prfax
+binder 8890:8890 <> A:139
+R8904:8914 Relation <> equivalence def
+R8918:8918 Relation <> A:139 var
+R8916:8916 Relation <> R:138 var
+binder 8900:8900 <> H:140
+R8926:8928 Axioms <> set prfax
+binder 8922:8922 <> x:141
+binder 8942:8942 <> y:142
+R8969:8980 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8946:8956 Axioms <> :::x_'∈'_x not
+R8968:8968 Axioms <> :::x_'∈'_x not
+R8945:8945 Relation <> y:142 var
+R8957:8963 Relation <> eqClass def
+R8967:8967 Relation <> x:141 var
+R8965:8965 Relation <> H:140 var
+R8990:9000 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8982:8988 Axioms <> :::x_'∈'_x not
+R8981:8981 Relation <> y:142 var
+R8989:8989 Relation <> A:139 var
+R9008:9019 Axioms <> :::x_'∈'_x not
+R9001:9002 Sets <> :::'<|'_x_','_x_'|>' not
+R9004:9004 Sets <> :::'<|'_x_','_x_'|>' not
+R9006:9007 Sets <> :::'<|'_x_','_x_'|>' not
+R9003:9003 Relation <> x:141 var
+R9005:9005 Relation <> y:142 var
+R9020:9020 Relation <> R:138 var
+R9054:9058 Axioms <> class prfax
+R9054:9058 Axioms <> class prfax
+R9054:9058 Axioms <> class prfax
+def 9092:9101 <> is_eqClass
+R9108:9110 Relation <> Rel def
+binder 9104:9104 <> R:143
+R9118:9120 Axioms <> set prfax
+binder 9114:9114 <> A:144
+R9128:9138 Relation <> equivalence def
+R9142:9142 Relation <> A:144 var
+R9140:9140 Relation <> R:143 var
+binder 9124:9124 <> H:145
+R9152:9154 Axioms <> set prfax
+binder 9146:9146 <> x:146
+binder 9148:9148 <> y:147
+R9163:9166 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9178:9178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9162:9162 Relation <> y:147 var
+R9167:9173 Relation <> eqClass def
+R9177:9177 Relation <> x:146 var
+R9175:9175 Relation <> H:145 var
+prf 9190:9203 <> unique_eqClass
+R9210:9212 Relation <> Rel def
+binder 9206:9206 <> R:148
+R9220:9222 Axioms <> set prfax
+binder 9216:9216 <> A:149
+R9230:9240 Relation <> equivalence def
+R9244:9244 Relation <> A:149 var
+R9242:9242 Relation <> R:148 var
+binder 9226:9226 <> H:150
+binder 9257:9257 <> x:151
+R9267:9270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9271:9278 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R9280:9281 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 9279:9279 <> y:152
+R9283:9292 Relation <> is_eqClass def
+R9294:9294 Relation <> H:150 var
+R9299:9299 Relation <> y:152 var
+R9297:9297 Relation <> x:151 var
+R9261:9265 Axioms <> :::x_'∈'_x not
+R9260:9260 Relation <> x:151 var
+R9266:9266 Relation <> A:149 var
+R9334:9340 Relation <> eqClass def
+R9334:9340 Relation <> eqClass def
+R9378:9387 Relation <> is_eqClass def
+prf 9431:9448 <> exists_quotiention
+R9455:9457 Relation <> Rel def
+binder 9451:9451 <> R:153
+R9465:9467 Axioms <> set prfax
+binder 9461:9461 <> A:154
+R9475:9485 Relation <> equivalence def
+R9489:9489 Relation <> A:154 var
+R9487:9487 Relation <> R:153 var
+binder 9471:9471 <> H:155
+R9496:9502 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9504:9505 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9503:9503 <> U:156
+binder 9513:9513 <> u:157
+R9523:9526 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9517:9521 Axioms <> :::x_'∈'_x not
+R9516:9516 Relation <> u:157 var
+R9522:9522 Relation <> U:156 var
+R9527:9533 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9535:9536 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9534:9534 <> x:158
+R9544:9547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9538:9542 Axioms <> :::x_'∈'_x not
+R9537:9537 Relation <> x:158 var
+R9543:9543 Relation <> A:154 var
+R9549:9551 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9548:9548 Relation <> u:157 var
+R9552:9558 Relation <> eqClass def
+R9562:9562 Relation <> x:158 var
+R9560:9560 Relation <> H:155 var
+R9587:9600 Relation <> unique_eqClass thm
+R9587:9600 Relation <> unique_eqClass thm
+R9626:9642 Relation <> prop_implies_func thm
+R9647:9656 Relation <> is_eqClass def
+R9626:9642 Relation <> prop_implies_func thm
+R9647:9656 Relation <> is_eqClass def
+R9766:9768 Relation <> Ran def
+R9766:9768 Relation <> Ran def
+R9817:9819 Relation <> ran thm
+R9817:9819 Relation <> ran thm
+R9919:9921 Relation <> dom thm
+R9919:9921 Relation <> dom thm
+R9919:9921 Relation <> dom thm
+R9956:9963 Relation <> eq_value thm
+R9956:9963 Relation <> eq_value thm
+R10059:10061 Relation <> dom thm
+R10059:10061 Relation <> dom thm
+R10152:10154 Relation <> ran thm
+R10152:10154 Relation <> ran thm
+R10176:10180 Axioms <> :::x_'∈'_x not
+R10176:10180 Axioms <> :::x_'∈'_x not
+R10230:10232 Relation <> dom thm
+R10230:10232 Relation <> dom thm
+R10282:10289 Relation <> eq_value thm
+R10282:10289 Relation <> eq_value thm
+R10367:10374 Relation <> eq_value thm
+R10367:10374 Relation <> eq_value thm
+def 10424:10434 <> Quotiention
+R10441:10443 Relation <> Rel def
+binder 10437:10437 <> R:159
+R10451:10453 Axioms <> set prfax
+binder 10447:10447 <> A:160
+R10461:10471 Relation <> equivalence def
+R10475:10475 Relation <> A:160 var
+R10473:10473 Relation <> R:159 var
+binder 10457:10457 <> H:161
+R10483:10487 Axioms <> Class prfax
+R10538:10555 Relation <> exists_quotiention thm
+R10557:10557 Relation <> H:161 var
+binder 10494:10494 <> u:162
+R10499:10505 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10507:10508 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10506:10506 <> x:163
+R10516:10519 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10510:10514 Axioms <> :::x_'∈'_x not
+R10509:10509 Relation <> x:163 var
+R10515:10515 Relation <> A:160 var
+R10521:10523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10520:10520 Relation <> u:162 var
+R10524:10530 Relation <> eqClass def
+R10534:10534 Relation <> x:163 var
+R10532:10532 Relation <> H:161 var
+prf 10571:10581 <> quotiention
+R10588:10590 Relation <> Rel def
+binder 10584:10584 <> R:164
+R10598:10600 Axioms <> set prfax
+binder 10594:10594 <> A:165
+R10608:10618 Relation <> equivalence def
+R10622:10622 Relation <> A:165 var
+R10620:10620 Relation <> R:164 var
+binder 10604:10604 <> H:166
+binder 10636:10636 <> u:167
+R10664:10668 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10640:10645 Axioms <> :::x_'∈'_x not
+R10663:10663 Axioms <> :::x_'∈'_x not
+R10639:10639 Relation <> u:167 var
+R10646:10656 Relation <> Quotiention def
+R10662:10662 Relation <> H:166 var
+R10660:10660 Relation <> A:165 var
+R10658:10658 Relation <> R:164 var
+R10669:10675 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10677:10678 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10676:10676 <> x:168
+R10686:10689 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10680:10684 Axioms <> :::x_'∈'_x not
+R10679:10679 Relation <> x:168 var
+R10685:10685 Relation <> A:165 var
+R10691:10694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10706:10706 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10690:10690 Relation <> u:167 var
+R10695:10701 Relation <> eqClass def
+R10705:10705 Relation <> x:168 var
+R10703:10703 Relation <> H:166 var
+R10740:10744 Axioms <> class prfax
+R10740:10744 Axioms <> class prfax
+R10740:10744 Axioms <> class prfax
+def 10765:10775 <> Isomorphism
+binder 10777:10777 <> F:169
+binder 10779:10779 <> A:170
+binder 10781:10781 <> B:171
+binder 10783:10783 <> R:172
+binder 10785:10785 <> G:173
+R10808:10814 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10793:10801 Relation <> Bijection def
+R10807:10807 Relation <> B:171 var
+R10805:10805 Relation <> A:170 var
+R10803:10803 Relation <> F:169 var
+binder 10822:10822 <> x:174
+binder 10824:10824 <> y:175
+R10834:10837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10845:10848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10862:10869 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R10856:10860 Axioms <> :::x_'∈'_x not
+R10849:10850 Sets <> :::'<|'_x_','_x_'|>' not
+R10852:10852 Sets <> :::'<|'_x_','_x_'|>' not
+R10854:10855 Sets <> :::'<|'_x_','_x_'|>' not
+R10851:10851 Relation <> x:174 var
+R10853:10853 Relation <> y:175 var
+R10861:10861 Relation <> R:172 var
+R10895:10899 Axioms <> :::x_'∈'_x not
+R10870:10871 Sets <> :::'<|'_x_','_x_'|>' not
+R10881:10883 Sets <> :::'<|'_x_','_x_'|>' not
+R10893:10894 Sets <> :::'<|'_x_','_x_'|>' not
+R10872:10876 Relation <> Value prfax
+R10880:10880 Relation <> x:174 var
+R10878:10878 Relation <> F:169 var
+R10884:10888 Relation <> Value prfax
+R10892:10892 Relation <> y:175 var
+R10890:10890 Relation <> F:169 var
+R10900:10900 Relation <> G:173 var
+R10839:10843 Axioms <> :::x_'∈'_x not
+R10838:10838 Relation <> y:175 var
+R10844:10844 Relation <> A:170 var
+R10828:10832 Axioms <> :::x_'∈'_x not
+R10827:10827 Relation <> x:174 var
+R10833:10833 Relation <> A:170 var
+R10942:10948 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10950:10951 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10949:10949 <> F:176
+R10952:10962 Relation <> Isomorphism def
+R10964:10964 Relation <> F:176 var
+not 10912:10912 <> :::'['_x_','_x_']'_'≅'_'['_x_','_x_']'

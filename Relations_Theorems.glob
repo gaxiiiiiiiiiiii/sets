@@ -1,0 +1,979 @@
+DIGEST b4251208e4d54ce6dc186ad1429a8b90
+FRelations_Theorems
+R15:22 Relation <> <> lib
+prf 36:52 <> composition_assoc
+R63:65 Relation <> Rel def
+binder 55:55 <> f:1
+binder 57:57 <> g:2
+binder 59:59 <> h:3
+R89:91 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R75:80 Relation <> :::x_'○'_x not
+R88:88 Relation <> :::x_'○'_x not
+R74:74 Relations_Theorems <> h:3 var
+R82:86 Relation <> :::x_'○'_x not
+R81:81 Relations_Theorems <> g:2 var
+R87:87 Relations_Theorems <> f:1 var
+R92:92 Relation <> :::x_'○'_x not
+R100:105 Relation <> :::x_'○'_x not
+R94:98 Relation <> :::x_'○'_x not
+R93:93 Relations_Theorems <> h:3 var
+R99:99 Relations_Theorems <> g:2 var
+R106:106 Relations_Theorems <> f:1 var
+R124:137 Axioms <> Extensionality prfax
+R124:137 Axioms <> Extensionality prfax
+R163:173 Relation <> composition thm
+R163:173 Relation <> composition thm
+R163:173 Relation <> composition thm
+R163:173 Relation <> composition thm
+R163:173 Relation <> composition thm
+R163:173 Relation <> composition thm
+R163:173 Relation <> composition thm
+R326:336 Relation <> composition thm
+R326:336 Relation <> composition thm
+R482:493 Sets_Theorems <> eq_OrderPair thm
+R482:493 Sets_Theorems <> eq_OrderPair thm
+R578:581 Coq.Init.Logic <> conj constr
+R578:581 Coq.Init.Logic <> conj constr
+R601:604 Coq.Init.Logic <> conj constr
+R601:604 Coq.Init.Logic <> conj constr
+R623:633 Relation <> composition thm
+R623:633 Relation <> composition thm
+R706:709 Coq.Init.Logic <> conj constr
+R706:709 Coq.Init.Logic <> conj constr
+R854:864 Relation <> composition thm
+R854:864 Relation <> composition thm
+R1012:1023 Sets_Theorems <> eq_OrderPair thm
+R1012:1023 Sets_Theorems <> eq_OrderPair thm
+R1110:1113 Coq.Init.Logic <> conj constr
+R1110:1113 Coq.Init.Logic <> conj constr
+R1148:1158 Relation <> composition thm
+R1148:1158 Relation <> composition thm
+R1148:1158 Relation <> composition thm
+prf 1235:1249 <> composition_dom
+R1264:1266 Axioms <> set prfax
+binder 1252:1252 <> f:4
+binder 1254:1254 <> g:5
+binder 1256:1256 <> A:6
+binder 1258:1258 <> B:7
+binder 1260:1260 <> C:8
+R1288:1291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1303:1306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1320:1322 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1307:1309 Relation <> Dom def
+R1313:1317 Relation <> :::x_'○'_x not
+R1312:1312 Relations_Theorems <> g:5 var
+R1318:1318 Relations_Theorems <> f:4 var
+R1323:1325 Relation <> Dom def
+R1327:1327 Relations_Theorems <> f:4 var
+R1293:1295 Relation <> :::x_'|'_x_'→'_x not
+R1297:1301 Relation <> :::x_'|'_x_'→'_x not
+R1292:1292 Relations_Theorems <> g:5 var
+R1296:1296 Relations_Theorems <> B:7 var
+R1302:1302 Relations_Theorems <> C:8 var
+R1278:1280 Relation <> :::x_'|'_x_'→'_x not
+R1282:1286 Relation <> :::x_'|'_x_'→'_x not
+R1277:1277 Relations_Theorems <> f:4 var
+R1281:1281 Relations_Theorems <> A:6 var
+R1287:1287 Relations_Theorems <> B:7 var
+R1499:1512 Axioms <> Extensionality prfax
+R1499:1512 Axioms <> Extensionality prfax
+R1550:1552 Relation <> dom thm
+R1550:1552 Relation <> dom thm
+R1594:1604 Relation <> composition thm
+R1594:1604 Relation <> composition thm
+R1743:1754 Sets_Theorems <> eq_OrderPair thm
+R1743:1754 Sets_Theorems <> eq_OrderPair thm
+R1804:1806 Relation <> dom thm
+R1804:1806 Relation <> dom thm
+R1836:1838 Relation <> dom thm
+R1836:1838 Relation <> dom thm
+R1936:1938 Relation <> ran thm
+R1936:1938 Relation <> ran thm
+R1936:1938 Relation <> ran thm
+R1963:1969 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1971:1972 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1970:1970 <> a:9
+R1973:1973 Axioms <> :::x_'∈'_x not
+R1981:1986 Axioms <> :::x_'∈'_x not
+R1974:1975 Sets <> :::'<|'_x_','_x_'|>' not
+R1977:1977 Sets <> :::'<|'_x_','_x_'|>' not
+R1979:1980 Sets <> :::'<|'_x_','_x_'|>' not
+R1976:1976 Relations_Theorems <> a:9 var
+R1963:1969 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1971:1972 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1970:1970 <> a:10
+R1973:1973 Axioms <> :::x_'∈'_x not
+R1981:1986 Axioms <> :::x_'∈'_x not
+R1974:1975 Sets <> :::'<|'_x_','_x_'|>' not
+R1977:1977 Sets <> :::'<|'_x_','_x_'|>' not
+R1979:1980 Sets <> :::'<|'_x_','_x_'|>' not
+R1976:1976 Relations_Theorems <> a:10 var
+R2104:2106 Relation <> dom thm
+R2104:2106 Relation <> dom thm
+R2155:2157 Relation <> dom thm
+R2155:2157 Relation <> dom thm
+R2186:2196 Relation <> composition thm
+R2186:2196 Relation <> composition thm
+R2186:2196 Relation <> composition thm
+prf 2254:2268 <> composition_ran
+R2283:2285 Axioms <> set prfax
+binder 2271:2271 <> f:11
+binder 2273:2273 <> g:12
+binder 2275:2275 <> A:13
+binder 2277:2277 <> B:14
+binder 2279:2279 <> C:15
+R2307:2310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2322:2325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2339:2344 Sets <> :::x_'⊂'_x not
+R2350:2350 Sets <> :::x_'⊂'_x not
+R2326:2328 Relation <> Ran def
+R2332:2336 Relation <> :::x_'○'_x not
+R2331:2331 Relations_Theorems <> g:12 var
+R2337:2337 Relations_Theorems <> f:11 var
+R2345:2347 Relation <> Ran def
+R2349:2349 Relations_Theorems <> g:12 var
+R2312:2314 Relation <> :::x_'|'_x_'→'_x not
+R2316:2320 Relation <> :::x_'|'_x_'→'_x not
+R2311:2311 Relations_Theorems <> g:12 var
+R2315:2315 Relations_Theorems <> B:14 var
+R2321:2321 Relations_Theorems <> C:15 var
+R2297:2299 Relation <> :::x_'|'_x_'→'_x not
+R2301:2305 Relation <> :::x_'|'_x_'→'_x not
+R2296:2296 Relations_Theorems <> f:11 var
+R2300:2300 Relations_Theorems <> A:13 var
+R2306:2306 Relations_Theorems <> B:14 var
+R2462:2464 Relation <> ran thm
+R2462:2464 Relation <> ran thm
+R2504:2514 Relation <> composition thm
+R2504:2514 Relation <> composition thm
+R2647:2658 Sets_Theorems <> eq_OrderPair thm
+R2647:2658 Sets_Theorems <> eq_OrderPair thm
+R2706:2708 Relation <> ran thm
+R2706:2708 Relation <> ran thm
+prf 2740:2755 <> composition_func
+R2764:2766 Axioms <> set prfax
+binder 2758:2758 <> f:16
+binder 2760:2760 <> g:17
+R2779:2782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2789:2792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2793:2796 Relation <> func def
+R2800:2804 Relation <> :::x_'○'_x not
+R2799:2799 Relations_Theorems <> g:17 var
+R2805:2805 Relations_Theorems <> f:16 var
+R2783:2786 Relation <> func def
+R2788:2788 Relations_Theorems <> g:17 var
+R2773:2776 Relation <> func def
+R2778:2778 Relations_Theorems <> f:16 var
+R2860:2862 Relation <> dom thm
+R2860:2862 Relation <> dom thm
+R2920:2925 Axioms <> :::x_'∈'_x not
+R2933:2933 Axioms <> :::x_'∈'_x not
+R2913:2914 Sets <> :::'<|'_x_','_x_'|>' not
+R2916:2916 Sets <> :::'<|'_x_','_x_'|>' not
+R2918:2919 Sets <> :::'<|'_x_','_x_'|>' not
+R2927:2931 Relation <> :::x_'○'_x not
+R2920:2925 Axioms <> :::x_'∈'_x not
+R2933:2933 Axioms <> :::x_'∈'_x not
+R2913:2914 Sets <> :::'<|'_x_','_x_'|>' not
+R2916:2916 Sets <> :::'<|'_x_','_x_'|>' not
+R2918:2919 Sets <> :::'<|'_x_','_x_'|>' not
+R2927:2931 Relation <> :::x_'○'_x not
+R2954:2964 Relation <> composition thm
+R2954:2964 Relation <> composition thm
+R3097:3108 Sets_Theorems <> eq_OrderPair thm
+R3097:3108 Sets_Theorems <> eq_OrderPair thm
+R3169:3172 Coq.Init.Logic <> conj constr
+R3169:3172 Coq.Init.Logic <> conj constr
+R3218:3223 Axioms <> :::x_'∈'_x not
+R3229:3229 Axioms <> :::x_'∈'_x not
+R3224:3226 Relation <> Dom def
+R3218:3223 Axioms <> :::x_'∈'_x not
+R3229:3229 Axioms <> :::x_'∈'_x not
+R3224:3226 Relation <> Dom def
+R3241:3243 Relation <> dom thm
+R3241:3243 Relation <> dom thm
+R3372:3377 Axioms <> :::x_'∈'_x not
+R3383:3383 Axioms <> :::x_'∈'_x not
+R3378:3380 Relation <> Dom def
+R3372:3377 Axioms <> :::x_'∈'_x not
+R3383:3383 Axioms <> :::x_'∈'_x not
+R3378:3380 Relation <> Dom def
+R3395:3397 Relation <> dom thm
+R3395:3397 Relation <> dom thm
+R3514:3524 Relation <> composition thm
+R3514:3524 Relation <> composition thm
+R3656:3667 Sets_Theorems <> eq_OrderPair thm
+R3656:3667 Sets_Theorems <> eq_OrderPair thm
+prf 3842:3856 <> composition_map
+R3871:3873 Axioms <> set prfax
+binder 3859:3859 <> f:18
+binder 3861:3861 <> g:19
+binder 3863:3863 <> A:20
+binder 3865:3865 <> B:21
+binder 3867:3867 <> C:22
+R3894:3897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3909:3912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3920:3922 Relation <> :::x_'|'_x_'→'_x not
+R3924:3928 Relation <> :::x_'|'_x_'→'_x not
+R3914:3918 Relation <> :::x_'○'_x not
+R3913:3913 Relations_Theorems <> g:19 var
+R3919:3919 Relations_Theorems <> f:18 var
+R3923:3923 Relations_Theorems <> A:20 var
+R3929:3929 Relations_Theorems <> C:22 var
+R3899:3901 Relation <> :::x_'|'_x_'→'_x not
+R3903:3907 Relation <> :::x_'|'_x_'→'_x not
+R3898:3898 Relations_Theorems <> g:19 var
+R3902:3902 Relations_Theorems <> B:21 var
+R3908:3908 Relations_Theorems <> C:22 var
+R3884:3886 Relation <> :::x_'|'_x_'→'_x not
+R3888:3892 Relation <> :::x_'|'_x_'→'_x not
+R3883:3883 Relations_Theorems <> f:18 var
+R3887:3887 Relations_Theorems <> A:20 var
+R3893:3893 Relations_Theorems <> B:21 var
+R4107:4110 Coq.Init.Logic <> conj constr
+R4113:4128 Relations_Theorems <> composition_func thm
+R4107:4110 Coq.Init.Logic <> conj constr
+R4113:4128 Relations_Theorems <> composition_func thm
+R4188:4202 Relations_Theorems <> composition_dom thm
+R4188:4202 Relations_Theorems <> composition_dom thm
+R4240:4242 Relation <> ran thm
+R4240:4242 Relation <> ran thm
+R4291:4301 Relation <> composition thm
+R4291:4301 Relation <> composition thm
+R4440:4451 Sets_Theorems <> eq_OrderPair thm
+R4440:4451 Sets_Theorems <> eq_OrderPair thm
+R4544:4546 Relation <> ran thm
+R4544:4546 Relation <> ran thm
+R4544:4546 Relation <> ran thm
+R4571:4578 Coq.Init.Logic <> ex_intro constr
+binder 4585:4585 <> b:23
+R4590:4590 Axioms <> :::x_'∈'_x not
+R4601:4606 Axioms <> :::x_'∈'_x not
+R4591:4593 Sets <> :::'<|'_x_','_x_'|>' not
+R4595:4596 Sets <> :::'<|'_x_','_x_'|>' not
+R4598:4600 Sets <> :::'<|'_x_','_x_'|>' not
+R4594:4594 Relations_Theorems <> b:23 var
+R4571:4578 Coq.Init.Logic <> ex_intro constr
+binder 4585:4585 <> b:24
+R4590:4590 Axioms <> :::x_'∈'_x not
+R4601:4606 Axioms <> :::x_'∈'_x not
+R4591:4593 Sets <> :::'<|'_x_','_x_'|>' not
+R4595:4596 Sets <> :::'<|'_x_','_x_'|>' not
+R4598:4600 Sets <> :::'<|'_x_','_x_'|>' not
+R4594:4594 Relations_Theorems <> b:24 var
+prf 4634:4644 <> dom_reverse
+R4651:4653 Axioms <> set prfax
+binder 4647:4647 <> f:25
+R4677:4679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4662:4664 Relation <> Dom def
+R4667:4673 Relation <> Reverse def
+R4675:4675 Relations_Theorems <> f:25 var
+R4680:4682 Relation <> Ran def
+R4684:4684 Relations_Theorems <> f:25 var
+R4702:4715 Axioms <> Extensionality prfax
+R4702:4715 Axioms <> Extensionality prfax
+R4733:4735 Relation <> dom thm
+R4746:4748 Relation <> ran thm
+R4733:4735 Relation <> dom thm
+R4733:4735 Relation <> dom thm
+R4746:4748 Relation <> ran thm
+R4746:4748 Relation <> ran thm
+R4813:4819 Relation <> reverse thm
+R4813:4819 Relation <> reverse thm
+R4908:4914 Relation <> reverse thm
+R4908:4914 Relation <> reverse thm
+prf 4934:4944 <> ran_reverse
+R4951:4953 Axioms <> set prfax
+binder 4947:4947 <> f:26
+R4977:4979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4962:4964 Relation <> Ran def
+R4967:4973 Relation <> Reverse def
+R4975:4975 Relations_Theorems <> f:26 var
+R4980:4982 Relation <> Dom def
+R4984:4984 Relations_Theorems <> f:26 var
+R5002:5015 Axioms <> Extensionality prfax
+R5002:5015 Axioms <> Extensionality prfax
+R5033:5035 Relation <> dom thm
+R5046:5048 Relation <> ran thm
+R5033:5035 Relation <> dom thm
+R5033:5035 Relation <> dom thm
+R5046:5048 Relation <> ran thm
+R5046:5048 Relation <> ran thm
+R5113:5119 Relation <> reverse thm
+R5113:5119 Relation <> reverse thm
+R5209:5215 Relation <> reverse thm
+R5209:5215 Relation <> reverse thm
+prf 5239:5255 <> reverse_bijection
+R5266:5268 Axioms <> set prfax
+binder 5258:5258 <> f:27
+binder 5260:5260 <> A:28
+binder 5262:5262 <> B:29
+R5290:5294 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5275:5283 Relation <> Bijection def
+R5289:5289 Relations_Theorems <> B:29 var
+R5287:5287 Relations_Theorems <> A:28 var
+R5285:5285 Relations_Theorems <> f:27 var
+R5306:5309 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5296:5298 Relation <> :::x_'|'_x_'→'_x not
+R5300:5304 Relation <> :::x_'|'_x_'→'_x not
+R5295:5295 Relations_Theorems <> f:27 var
+R5299:5299 Relations_Theorems <> A:28 var
+R5305:5305 Relations_Theorems <> B:29 var
+R5319:5321 Relation <> :::x_'|'_x_'→'_x not
+R5323:5327 Relation <> :::x_'|'_x_'→'_x not
+R5310:5316 Relation <> Reverse def
+R5318:5318 Relations_Theorems <> f:27 var
+R5322:5322 Relations_Theorems <> B:29 var
+R5328:5328 Relations_Theorems <> A:28 var
+R5520:5523 Coq.Init.Logic <> conj constr
+R5520:5523 Coq.Init.Logic <> conj constr
+R5547:5550 Coq.Init.Logic <> conj constr
+R5547:5550 Coq.Init.Logic <> conj constr
+R5621:5631 Relations_Theorems <> dom_reverse thm
+R5621:5631 Relations_Theorems <> dom_reverse thm
+R5621:5631 Relations_Theorems <> dom_reverse thm
+R5658:5660 Relation <> ran thm
+R5658:5660 Relation <> ran thm
+R5761:5767 Relation <> reverse thm
+R5761:5767 Relation <> reverse thm
+R5809:5815 Relation <> reverse thm
+R5809:5815 Relation <> reverse thm
+R5863:5870 Relation <> eq_value thm
+R5863:5870 Relation <> eq_value thm
+R5902:5909 Relation <> eq_value thm
+R5902:5909 Relation <> eq_value thm
+R5963:5973 Relations_Theorems <> dom_reverse thm
+R5963:5973 Relations_Theorems <> dom_reverse thm
+R5963:5973 Relations_Theorems <> dom_reverse thm
+R5992:6002 Relations_Theorems <> ran_reverse thm
+R5992:6002 Relations_Theorems <> ran_reverse thm
+R5992:6002 Relations_Theorems <> ran_reverse thm
+R6020:6023 Coq.Init.Logic <> conj constr
+R6020:6023 Coq.Init.Logic <> conj constr
+R6258:6268 Relations_Theorems <> dom_reverse thm
+R6258:6268 Relations_Theorems <> dom_reverse thm
+R6258:6268 Relations_Theorems <> dom_reverse thm
+R6293:6303 Relations_Theorems <> ran_reverse thm
+R6293:6303 Relations_Theorems <> ran_reverse thm
+R6293:6303 Relations_Theorems <> ran_reverse thm
+R6339:6342 Coq.Init.Logic <> conj constr
+R6339:6342 Coq.Init.Logic <> conj constr
+R6366:6369 Coq.Init.Logic <> conj constr
+R6366:6369 Coq.Init.Logic <> conj constr
+R6399:6402 Coq.Init.Logic <> conj constr
+R6399:6402 Coq.Init.Logic <> conj constr
+R6461:6465 Relation <> Value prfax
+R6461:6465 Relation <> Value prfax
+R6493:6493 Axioms <> :::x_'∈'_x not
+R6503:6509 Axioms <> :::x_'∈'_x not
+R6525:6525 Axioms <> :::x_'∈'_x not
+R6494:6498 Relation <> Value prfax
+R6510:6512 Relation <> Dom def
+R6515:6521 Relation <> Reverse def
+R6493:6493 Axioms <> :::x_'∈'_x not
+R6503:6509 Axioms <> :::x_'∈'_x not
+R6525:6525 Axioms <> :::x_'∈'_x not
+R6494:6498 Relation <> Value prfax
+R6510:6512 Relation <> Dom def
+R6515:6521 Relation <> Reverse def
+R6543:6553 Relations_Theorems <> dom_reverse thm
+R6543:6553 Relations_Theorems <> dom_reverse thm
+R6543:6553 Relations_Theorems <> dom_reverse thm
+R6568:6570 Relation <> ran thm
+R6568:6570 Relation <> ran thm
+R6602:6606 Relation <> value prfax
+R6602:6606 Relation <> value prfax
+R6725:6729 Relation <> value prfax
+R6725:6729 Relation <> value prfax
+R6768:6772 Relation <> value prfax
+R6768:6772 Relation <> value prfax
+R6840:6846 Relation <> reverse thm
+R6840:6846 Relation <> reverse thm
+R6840:6846 Relation <> reverse thm
+R6873:6879 Relation <> reverse thm
+R6873:6879 Relation <> reverse thm
+R6873:6879 Relation <> reverse thm
+prf 6979:6986 <> reverse_
+R6993:6995 Axioms <> set prfax
+binder 6989:6989 <> R:30
+binder 7009:7009 <> u:31
+R7029:7033 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7013:7018 Axioms <> :::x_'∈'_x not
+R7028:7028 Axioms <> :::x_'∈'_x not
+R7012:7012 Relations_Theorems <> u:31 var
+R7019:7025 Relation <> Reverse def
+R7027:7027 Relations_Theorems <> R:30 var
+R7034:7040 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7044:7045 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7041:7041 <> x:32
+binder 7043:7043 <> y:33
+R7057:7060 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7047:7049 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7046:7046 Relations_Theorems <> u:31 var
+R7050:7051 Sets <> :::'<|'_x_','_x_'|>' not
+R7053:7053 Sets <> :::'<|'_x_','_x_'|>' not
+R7055:7056 Sets <> :::'<|'_x_','_x_'|>' not
+R7052:7052 Relations_Theorems <> y:33 var
+R7054:7054 Relations_Theorems <> x:32 var
+R7068:7072 Axioms <> :::x_'∈'_x not
+R7061:7062 Sets <> :::'<|'_x_','_x_'|>' not
+R7064:7064 Sets <> :::'<|'_x_','_x_'|>' not
+R7066:7067 Sets <> :::'<|'_x_','_x_'|>' not
+R7063:7063 Relations_Theorems <> x:32 var
+R7065:7065 Relations_Theorems <> y:33 var
+R7073:7073 Relations_Theorems <> R:30 var
+R7125:7129 Axioms <> class prfax
+R7125:7129 Axioms <> class prfax
+R7241:7245 Axioms <> class prfax
+R7241:7245 Axioms <> class prfax
+R7271:7277 Relation <> product thm
+R7271:7277 Relation <> product thm
+R7331:7333 Relation <> ran thm
+R7331:7333 Relation <> ran thm
+R7380:7382 Relation <> dom thm
+R7380:7382 Relation <> dom thm
+prf 7469:7487 <> reverse_composition
+R7496:7498 Axioms <> set prfax
+binder 7490:7490 <> f:34
+binder 7492:7492 <> g:35
+R7522:7524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7505:7511 Relation <> Reverse def
+R7515:7519 Relation <> :::x_'○'_x not
+R7514:7514 Relations_Theorems <> g:35 var
+R7520:7520 Relations_Theorems <> f:34 var
+R7525:7525 Relation <> :::x_'○'_x not
+R7535:7541 Relation <> :::x_'○'_x not
+R7551:7551 Relation <> :::x_'○'_x not
+R7526:7532 Relation <> Reverse def
+R7534:7534 Relations_Theorems <> f:34 var
+R7542:7548 Relation <> Reverse def
+R7550:7550 Relations_Theorems <> g:35 var
+R7569:7582 Axioms <> Extensionality prfax
+R7569:7582 Axioms <> Extensionality prfax
+R7600:7610 Relation <> composition thm
+R7600:7610 Relation <> composition thm
+R7600:7610 Relation <> composition thm
+R7623:7630 Relations_Theorems <> reverse_ thm
+R7623:7630 Relations_Theorems <> reverse_ thm
+R7623:7630 Relations_Theorems <> reverse_ thm
+R7741:7751 Relation <> composition thm
+R7741:7751 Relation <> composition thm
+R7899:7910 Sets_Theorems <> eq_OrderPair thm
+R7899:7910 Sets_Theorems <> eq_OrderPair thm
+R8006:8012 Relation <> reverse thm
+R8006:8012 Relation <> reverse thm
+R8006:8012 Relation <> reverse thm
+R8006:8012 Relation <> reverse thm
+R8006:8012 Relation <> reverse thm
+R8006:8012 Relation <> reverse thm
+R8006:8012 Relation <> reverse thm
+R8108:8114 Relation <> reverse thm
+R8108:8114 Relation <> reverse thm
+R8108:8114 Relation <> reverse thm
+R8108:8114 Relation <> reverse thm
+R8108:8114 Relation <> reverse thm
+R8108:8114 Relation <> reverse thm
+R8108:8114 Relation <> reverse thm
+R8217:8220 Coq.Init.Logic <> conj constr
+R8217:8220 Coq.Init.Logic <> conj constr
+R8239:8249 Relation <> composition thm
+R8239:8249 Relation <> composition thm
+prf 8303:8308 <> domran
+binder 8311:8311 <> f:36
+binder 8313:8313 <> x:37
+binder 8315:8315 <> y:38
+R8337:8340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8354:8357 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8342:8347 Axioms <> :::x_'∈'_x not
+R8353:8353 Axioms <> :::x_'∈'_x not
+R8341:8341 Relations_Theorems <> x:37 var
+R8348:8350 Relation <> Dom def
+R8352:8352 Relations_Theorems <> f:36 var
+R8359:8364 Axioms <> :::x_'∈'_x not
+R8370:8370 Axioms <> :::x_'∈'_x not
+R8358:8358 Relations_Theorems <> y:38 var
+R8365:8367 Relation <> Ran def
+R8369:8369 Relations_Theorems <> f:36 var
+R8331:8335 Axioms <> :::x_'∈'_x not
+R8324:8325 Sets <> :::'<|'_x_','_x_'|>' not
+R8327:8327 Sets <> :::'<|'_x_','_x_'|>' not
+R8329:8330 Sets <> :::'<|'_x_','_x_'|>' not
+R8326:8326 Relations_Theorems <> x:37 var
+R8328:8328 Relations_Theorems <> y:38 var
+R8336:8336 Relations_Theorems <> f:36 var
+R8411:8413 Relation <> dom thm
+R8411:8413 Relation <> dom thm
+R8437:8439 Relation <> ran thm
+R8437:8439 Relation <> ran thm
+prf 8468:8484 <> value_composition
+R8500:8502 Axioms <> set prfax
+binder 8488:8488 <> f:39
+binder 8490:8490 <> g:40
+binder 8492:8492 <> A:41
+binder 8494:8494 <> B:42
+binder 8496:8496 <> C:43
+R8520:8523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8535:8538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8546:8546 <> x:44
+R8568:8571 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8549:8553 Relation <> Value prfax
+R8558:8562 Relation <> Value prfax
+R8566:8566 Relations_Theorems <> x:44 var
+R8564:8564 Relations_Theorems <> f:39 var
+R8555:8555 Relations_Theorems <> g:40 var
+R8572:8576 Relation <> Value prfax
+R8587:8587 Relations_Theorems <> x:44 var
+R8580:8584 Relation <> :::x_'○'_x not
+R8579:8579 Relations_Theorems <> g:40 var
+R8585:8585 Relations_Theorems <> f:39 var
+R8525:8527 Relation <> :::x_'|'_x_'→'_x not
+R8529:8533 Relation <> :::x_'|'_x_'→'_x not
+R8524:8524 Relations_Theorems <> g:40 var
+R8528:8528 Relations_Theorems <> B:42 var
+R8534:8534 Relations_Theorems <> C:43 var
+R8510:8512 Relation <> :::x_'|'_x_'→'_x not
+R8514:8518 Relation <> :::x_'|'_x_'→'_x not
+R8509:8509 Relations_Theorems <> f:39 var
+R8513:8513 Relations_Theorems <> A:41 var
+R8519:8519 Relations_Theorems <> B:42 var
+R8699:8703 Relation <> value prfax
+R8699:8703 Relation <> value prfax
+R8740:8745 Relations_Theorems <> domran thm
+R8740:8745 Relations_Theorems <> domran thm
+R8919:8923 Relation <> Value prfax
+R8919:8923 Relation <> Value prfax
+R8979:8983 Relation <> Value prfax
+R8979:8983 Relation <> Value prfax
+R9120:9124 Relation <> Value prfax
+R9120:9124 Relation <> Value prfax
+R9217:9221 Relation <> value prfax
+R9226:9230 Relation <> Value prfax
+R9217:9221 Relation <> value prfax
+R9226:9230 Relation <> Value prfax
+R9274:9278 Relation <> Value prfax
+R9283:9287 Relation <> Value prfax
+R9274:9278 Relation <> Value prfax
+R9283:9287 Relation <> Value prfax
+R9339:9343 Relation <> value prfax
+R9358:9373 Relations_Theorems <> composition_func thm
+R9347:9351 Relation <> :::x_'○'_x not
+R9339:9343 Relation <> value prfax
+R9358:9373 Relations_Theorems <> composition_func thm
+R9347:9351 Relation <> :::x_'○'_x not
+R9403:9413 Relation <> composition thm
+R9403:9413 Relation <> composition thm
+R9547:9558 Sets_Theorems <> eq_OrderPair thm
+R9547:9558 Sets_Theorems <> eq_OrderPair thm
+prf 9667:9687 <> composition_injection
+binder 9690:9690 <> f:45
+binder 9692:9692 <> g:46
+binder 9694:9694 <> A:47
+binder 9696:9696 <> B:48
+binder 9698:9698 <> C:49
+R9722:9725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9741:9744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9745:9753 Relation <> Injection def
+R9767:9767 Relations_Theorems <> C:49 var
+R9765:9765 Relations_Theorems <> A:47 var
+R9757:9761 Relation <> :::x_'○'_x not
+R9756:9756 Relations_Theorems <> g:46 var
+R9762:9762 Relations_Theorems <> f:45 var
+R9726:9734 Relation <> Injection def
+R9740:9740 Relations_Theorems <> C:49 var
+R9738:9738 Relations_Theorems <> B:48 var
+R9736:9736 Relations_Theorems <> g:46 var
+R9707:9715 Relation <> Injection def
+R9721:9721 Relations_Theorems <> B:48 var
+R9719:9719 Relations_Theorems <> A:47 var
+R9717:9717 Relations_Theorems <> f:45 var
+R9883:9899 Relations_Theorems <> value_composition thm
+R9883:9899 Relations_Theorems <> value_composition thm
+R9937:9951 Relations_Theorems <> composition_map thm
+R9937:9951 Relations_Theorems <> composition_map thm
+prf 10082:10103 <> composition_surjection
+binder 10106:10106 <> f:50
+binder 10108:10108 <> g:51
+binder 10110:10110 <> A:52
+binder 10112:10112 <> B:53
+binder 10114:10114 <> C:54
+R10139:10142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10159:10162 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10163:10172 Relation <> Surjection def
+R10186:10186 Relations_Theorems <> C:54 var
+R10184:10184 Relations_Theorems <> A:52 var
+R10176:10180 Relation <> :::x_'○'_x not
+R10175:10175 Relations_Theorems <> g:51 var
+R10181:10181 Relations_Theorems <> f:50 var
+R10143:10152 Relation <> Surjection def
+R10158:10158 Relations_Theorems <> C:54 var
+R10156:10156 Relations_Theorems <> B:53 var
+R10154:10154 Relations_Theorems <> g:51 var
+R10123:10132 Relation <> Surjection def
+R10138:10138 Relations_Theorems <> B:53 var
+R10136:10136 Relations_Theorems <> A:52 var
+R10134:10134 Relations_Theorems <> f:50 var
+R10296:10310 Relations_Theorems <> composition_map thm
+R10296:10310 Relations_Theorems <> composition_map thm
+R10332:10345 Axioms <> Extensionality prfax
+R10332:10345 Axioms <> Extensionality prfax
+R10365:10367 Relation <> ran thm
+R10365:10367 Relation <> ran thm
+R10365:10367 Relation <> ran thm
+R10432:10442 Relation <> composition thm
+R10432:10442 Relation <> composition thm
+R10587:10598 Sets_Theorems <> eq_OrderPair thm
+R10587:10598 Sets_Theorems <> eq_OrderPair thm
+R10650:10655 Relations_Theorems <> domran thm
+R10650:10655 Relations_Theorems <> domran thm
+R10748:10750 Relation <> ran thm
+R10748:10750 Relation <> ran thm
+R10801:10806 Relations_Theorems <> domran thm
+R10801:10806 Relations_Theorems <> domran thm
+R10997:10999 Relation <> ran thm
+R10997:10999 Relation <> ran thm
+R11076:11086 Relation <> composition thm
+R11076:11086 Relation <> composition thm
+prf 11142:11153 <> image_subset
+R11170:11172 Axioms <> set prfax
+binder 11156:11156 <> f:55
+binder 11158:11158 <> A:56
+binder 11160:11160 <> B:57
+binder 11162:11163 <> P1:58
+binder 11165:11166 <> P2:59
+R11188:11192 Sets <> :::x_'⊂'_x not
+R11186:11187 Relations_Theorems <> P1:58 var
+R11193:11193 Relations_Theorems <> A:56 var
+binder 11179:11182 <> P1_A:60
+R11206:11210 Sets <> :::x_'⊂'_x not
+R11204:11205 Relations_Theorems <> P2:59 var
+R11211:11211 Relations_Theorems <> A:56 var
+binder 11197:11200 <> P2_A:61
+R11222:11224 Relation <> :::x_'|'_x_'→'_x not
+R11226:11230 Relation <> :::x_'|'_x_'→'_x not
+R11221:11221 Relations_Theorems <> f:55 var
+R11225:11225 Relations_Theorems <> A:56 var
+R11231:11231 Relations_Theorems <> B:57 var
+binder 11215:11217 <> fAB:62
+R11246:11249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11260:11265 Sets <> :::x_'⊂'_x not
+R11276:11276 Sets <> :::x_'⊂'_x not
+R11250:11254 Relation <> Image def
+R11258:11259 Relations_Theorems <> P1:58 var
+R11256:11256 Relations_Theorems <> f:55 var
+R11266:11270 Relation <> Image def
+R11274:11275 Relations_Theorems <> P2:59 var
+R11272:11272 Relations_Theorems <> f:55 var
+R11239:11243 Sets <> :::x_'⊂'_x not
+R11237:11238 Relations_Theorems <> P1:58 var
+R11244:11245 Relations_Theorems <> P2:59 var
+R11318:11322 Relation <> image thm
+R11318:11322 Relation <> image thm
+R11429:11433 Relation <> image thm
+R11429:11433 Relation <> image thm
+R11429:11433 Relation <> image thm
+prf 11467:11475 <> image_cup
+R11495:11497 Axioms <> set prfax
+binder 11481:11481 <> f:63
+binder 11483:11483 <> A:64
+binder 11485:11485 <> B:65
+binder 11487:11488 <> P1:66
+binder 11490:11491 <> P2:67
+R11508:11510 Relation <> :::x_'|'_x_'→'_x not
+R11512:11516 Relation <> :::x_'|'_x_'→'_x not
+R11507:11507 Relations_Theorems <> f:63 var
+R11511:11511 Relations_Theorems <> A:64 var
+R11517:11517 Relations_Theorems <> B:65 var
+binder 11501:11503 <> fAB:68
+R11532:11536 Sets <> :::x_'⊂'_x not
+R11530:11531 Relations_Theorems <> P1:66 var
+R11537:11537 Relations_Theorems <> A:64 var
+binder 11523:11526 <> P1_A:69
+R11550:11554 Sets <> :::x_'⊂'_x not
+R11548:11549 Relations_Theorems <> P2:67 var
+R11555:11555 Relations_Theorems <> A:64 var
+binder 11541:11544 <> P2_A:70
+R11568:11572 Sets <> :::x_'⊂'_x not
+R11566:11567 Relations_Theorems <> P1:66 var
+R11573:11574 Relations_Theorems <> P2:67 var
+binder 11559:11562 <> P1P2:71
+R11600:11602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11581:11585 Relation <> Image def
+R11592:11596 Sets <> :::x_'∪'_x not
+R11590:11591 Relations_Theorems <> P1:66 var
+R11597:11598 Relations_Theorems <> P2:67 var
+R11587:11587 Relations_Theorems <> f:63 var
+R11603:11603 Sets <> :::x_'∪'_x not
+R11614:11620 Sets <> :::x_'∪'_x not
+R11631:11631 Sets <> :::x_'∪'_x not
+R11604:11608 Relation <> Image def
+R11612:11613 Relations_Theorems <> P1:66 var
+R11610:11610 Relations_Theorems <> f:63 var
+R11621:11625 Relation <> Image def
+R11629:11630 Relations_Theorems <> P2:67 var
+R11627:11627 Relations_Theorems <> f:63 var
+R11649:11662 Axioms <> Extensionality prfax
+R11649:11662 Axioms <> Extensionality prfax
+R11682:11684 Sets <> cup thm
+R11682:11684 Sets <> cup thm
+R11682:11684 Sets <> cup thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11704:11708 Relation <> image thm
+R11799:11801 Sets <> cup thm
+R11799:11801 Sets <> cup thm
+R11868:11876 Coq.Init.Logic <> or_introl constr
+R11868:11876 Coq.Init.Logic <> or_introl constr
+R11904:11912 Coq.Init.Logic <> or_intror constr
+R11904:11912 Coq.Init.Logic <> or_intror constr
+R12034:12036 Sets <> cup thm
+R12034:12036 Sets <> cup thm
+R12034:12036 Sets <> cup thm
+R12052:12055 Coq.Init.Logic <> conj constr
+R12058:12066 Coq.Init.Logic <> or_introl constr
+R12052:12055 Coq.Init.Logic <> conj constr
+R12058:12066 Coq.Init.Logic <> or_introl constr
+R12159:12161 Sets <> cup thm
+R12159:12161 Sets <> cup thm
+R12159:12161 Sets <> cup thm
+R12177:12180 Coq.Init.Logic <> conj constr
+R12183:12191 Coq.Init.Logic <> or_intror constr
+R12177:12180 Coq.Init.Logic <> conj constr
+R12183:12191 Coq.Init.Logic <> or_intror constr
+prf 12217:12225 <> image_cap
+R12245:12247 Axioms <> set prfax
+binder 12231:12231 <> f:72
+binder 12233:12233 <> A:73
+binder 12235:12235 <> B:74
+binder 12237:12238 <> P1:75
+binder 12240:12241 <> P2:76
+R12258:12260 Relation <> :::x_'|'_x_'→'_x not
+R12262:12266 Relation <> :::x_'|'_x_'→'_x not
+R12257:12257 Relations_Theorems <> f:72 var
+R12261:12261 Relations_Theorems <> A:73 var
+R12267:12267 Relations_Theorems <> B:74 var
+binder 12251:12253 <> fAB:77
+R12282:12286 Sets <> :::x_'⊂'_x not
+R12280:12281 Relations_Theorems <> P1:75 var
+R12287:12287 Relations_Theorems <> A:73 var
+binder 12273:12276 <> P1_A:78
+R12300:12304 Sets <> :::x_'⊂'_x not
+R12298:12299 Relations_Theorems <> P2:76 var
+R12305:12305 Relations_Theorems <> A:73 var
+binder 12291:12294 <> P2_A:79
+R12318:12322 Sets <> :::x_'⊂'_x not
+R12316:12317 Relations_Theorems <> P1:75 var
+R12323:12324 Relations_Theorems <> P2:76 var
+binder 12309:12312 <> P1P2:80
+R12350:12355 Sets <> :::x_'⊂'_x not
+R12385:12385 Sets <> :::x_'⊂'_x not
+R12331:12335 Relation <> Image def
+R12342:12346 Sets <> :::x_'∩'_x not
+R12340:12341 Relations_Theorems <> P1:75 var
+R12347:12348 Relations_Theorems <> P2:76 var
+R12337:12337 Relations_Theorems <> f:72 var
+R12356:12356 Sets <> :::x_'∩'_x not
+R12367:12373 Sets <> :::x_'∩'_x not
+R12384:12384 Sets <> :::x_'∩'_x not
+R12357:12361 Relation <> Image def
+R12365:12366 Relations_Theorems <> P1:75 var
+R12363:12363 Relations_Theorems <> f:72 var
+R12374:12378 Relation <> Image def
+R12382:12383 Relations_Theorems <> P2:76 var
+R12380:12380 Relations_Theorems <> f:72 var
+R12417:12419 Sets <> cap thm
+R12417:12419 Sets <> cap thm
+R12417:12419 Sets <> cap thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12439:12443 Relation <> image thm
+R12515:12517 Sets <> cap thm
+R12515:12517 Sets <> cap thm
+prf 12616:12625 <> image_diff
+R12641:12643 Axioms <> set prfax
+binder 12631:12631 <> f:81
+binder 12633:12633 <> A:82
+binder 12635:12635 <> B:83
+binder 12637:12637 <> P:84
+R12654:12656 Relation <> :::x_'|'_x_'→'_x not
+R12658:12662 Relation <> :::x_'|'_x_'→'_x not
+R12653:12653 Relations_Theorems <> f:81 var
+R12657:12657 Relations_Theorems <> A:82 var
+R12663:12663 Relations_Theorems <> B:83 var
+binder 12647:12649 <> fAB:85
+R12674:12678 Sets <> :::x_'⊂'_x not
+R12673:12673 Relations_Theorems <> P:84 var
+R12679:12679 Relations_Theorems <> A:82 var
+binder 12667:12669 <> P_A:86
+R12686:12686 Sets <> :::x_'⊂'_x not
+R12713:12719 Sets <> :::x_'⊂'_x not
+R12736:12736 Sets <> :::x_'⊂'_x not
+R12687:12687 Sets <> :::x_'//'_x not
+R12697:12702 Sets <> :::x_'//'_x not
+R12712:12712 Sets <> :::x_'//'_x not
+R12688:12692 Relation <> Image def
+R12696:12696 Relations_Theorems <> A:82 var
+R12694:12694 Relations_Theorems <> f:81 var
+R12703:12707 Relation <> Image def
+R12711:12711 Relations_Theorems <> P:84 var
+R12709:12709 Relations_Theorems <> f:81 var
+R12720:12724 Relation <> Image def
+R12730:12733 Sets <> :::x_'//'_x not
+R12729:12729 Relations_Theorems <> A:82 var
+R12734:12734 Relations_Theorems <> P:84 var
+R12726:12726 Relations_Theorems <> f:81 var
+R12767:12770 Sets <> diff thm
+R12767:12770 Sets <> diff thm
+R12767:12770 Sets <> diff thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12790:12794 Relation <> image thm
+R12902:12917 Logics <> allnot_notexists thm
+R12902:12917 Logics <> allnot_notexists thm
+R12902:12917 Logics <> allnot_notexists thm
+R12957:12971 Logics <> DeMorgan_notand thm
+R12957:12971 Logics <> DeMorgan_notand thm
+R13056:13059 Sets <> diff thm
+R13056:13059 Sets <> diff thm
+prf 13116:13127 <> eqclass_refl
+R13134:13136 Relation <> Rel def
+binder 13130:13130 <> R:87
+R13144:13146 Axioms <> set prfax
+binder 13140:13140 <> A:88
+R13155:13165 Relation <> equivalence def
+R13169:13169 Relations_Theorems <> A:88 var
+R13167:13167 Relations_Theorems <> R:87 var
+binder 13151:13151 <> H:89
+binder 13185:13185 <> a:90
+R13195:13198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13200:13205 Axioms <> :::x_'∈'_x not
+R13217:13217 Axioms <> :::x_'∈'_x not
+R13199:13199 Relations_Theorems <> a:90 var
+R13206:13212 Relation <> eqClass def
+R13216:13216 Relations_Theorems <> a:90 var
+R13214:13214 Relations_Theorems <> H:89 var
+R13189:13193 Axioms <> :::x_'∈'_x not
+R13188:13188 Relations_Theorems <> a:90 var
+R13194:13194 Relations_Theorems <> A:88 var
+R13250:13256 Relation <> eqclass thm
+R13250:13256 Relation <> eqclass thm
+prf 13325:13334 <> eqclass_eq
+R13343:13345 Axioms <> set prfax
+binder 13337:13337 <> R:91
+binder 13339:13339 <> A:92
+R13353:13363 Relation <> equivalence def
+R13367:13367 Relations_Theorems <> A:92 var
+R13365:13365 Relations_Theorems <> R:91 var
+binder 13349:13349 <> H:93
+binder 13381:13381 <> a:94
+binder 13383:13383 <> b:95
+R13393:13396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13404:13407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13421:13425 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13415:13419 Axioms <> :::x_'∈'_x not
+R13408:13409 Sets <> :::'<|'_x_','_x_'|>' not
+R13411:13411 Sets <> :::'<|'_x_','_x_'|>' not
+R13413:13414 Sets <> :::'<|'_x_','_x_'|>' not
+R13410:13410 Relations_Theorems <> a:94 var
+R13412:13412 Relations_Theorems <> b:95 var
+R13420:13420 Relations_Theorems <> R:91 var
+R13437:13439 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13426:13432 Relation <> eqClass def
+R13436:13436 Relations_Theorems <> a:94 var
+R13434:13434 Relations_Theorems <> H:93 var
+R13440:13446 Relation <> eqClass def
+R13450:13450 Relations_Theorems <> b:95 var
+R13448:13448 Relations_Theorems <> H:93 var
+R13398:13402 Axioms <> :::x_'∈'_x not
+R13397:13397 Relations_Theorems <> b:95 var
+R13403:13403 Relations_Theorems <> A:92 var
+R13387:13391 Axioms <> :::x_'∈'_x not
+R13386:13386 Relations_Theorems <> a:94 var
+R13392:13392 Relations_Theorems <> A:92 var
+R13574:13587 Axioms <> Extensionality prfax
+R13574:13587 Axioms <> Extensionality prfax
+R13614:13620 Relation <> eqclass thm
+R13614:13620 Relation <> eqclass thm
+R13614:13620 Relation <> eqclass thm
+R13614:13620 Relation <> eqclass thm
+R13614:13620 Relation <> eqclass thm
+R13614:13620 Relation <> eqclass thm
+R13614:13620 Relation <> eqclass thm
+R13693:13696 Coq.Init.Logic <> conj constr
+R13693:13696 Coq.Init.Logic <> conj constr
+R13830:13833 Coq.Init.Logic <> conj constr
+R13830:13833 Coq.Init.Logic <> conj constr
+R13901:13912 Relations_Theorems <> eqclass_refl thm
+R13901:13912 Relations_Theorems <> eqclass_refl thm
+R13965:13971 Relation <> eqclass thm
+R13965:13971 Relation <> eqclass thm
+prf 14060:14073 <> eqclass_contra
+R14082:14084 Axioms <> set prfax
+binder 14076:14076 <> R:96
+binder 14078:14078 <> A:97
+R14092:14102 Relation <> equivalence def
+R14106:14106 Relations_Theorems <> A:97 var
+R14104:14104 Relations_Theorems <> R:96 var
+binder 14088:14088 <> H:98
+binder 14122:14122 <> a:99
+binder 14124:14124 <> b:100
+R14134:14137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14145:14152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14179:14182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14183:14183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14213:14216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14195:14200 Sets <> :::x_'∩'_x not
+R14212:14212 Sets <> :::x_'∩'_x not
+R14184:14190 Relation <> eqClass def
+R14194:14194 Relations_Theorems <> a:99 var
+R14192:14192 Relations_Theorems <> H:98 var
+R14201:14207 Relation <> eqClass def
+R14211:14211 Relations_Theorems <> b:100 var
+R14209:14209 Relations_Theorems <> H:98 var
+R14217:14219 Sets <> :::'∅' not
+R14164:14167 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14153:14159 Relation <> eqClass def
+R14163:14163 Relations_Theorems <> a:99 var
+R14161:14161 Relations_Theorems <> H:98 var
+R14168:14174 Relation <> eqClass def
+R14178:14178 Relations_Theorems <> b:100 var
+R14176:14176 Relations_Theorems <> H:98 var
+R14139:14143 Axioms <> :::x_'∈'_x not
+R14138:14138 Relations_Theorems <> b:100 var
+R14144:14144 Relations_Theorems <> A:97 var
+R14128:14132 Axioms <> :::x_'∈'_x not
+R14127:14127 Relations_Theorems <> a:99 var
+R14133:14133 Relations_Theorems <> A:97 var
+R14260:14273 Axioms <> Extensionality prfax
+R14260:14273 Axioms <> Extensionality prfax
+R14291:14293 Sets <> cap thm
+R14291:14293 Sets <> cap thm
+R14291:14293 Sets <> cap thm
+R14313:14319 Relation <> eqclass thm
+R14313:14319 Relation <> eqclass thm
+R14313:14319 Relation <> eqclass thm
+R14313:14319 Relation <> eqclass thm
+R14313:14319 Relation <> eqclass thm
+R14313:14319 Relation <> eqclass thm
+R14313:14319 Relation <> eqclass thm
+R14594:14603 Relations_Theorems <> eqclass_eq thm
+R14594:14603 Relations_Theorems <> eqclass_eq thm
+R14668:14672 Sets <> empty prfax
+R14668:14672 Sets <> empty prfax

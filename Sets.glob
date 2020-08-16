@@ -1,0 +1,475 @@
+DIGEST 4a80d9db939ead43696aba9069fa6ea1
+FSets
+R15:20 Axioms <> <> lib
+prf 48:55 <> ex_empty
+R61:68 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R70:71 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 69:69 <> e:1
+binder 79:79 <> x:2
+R82:83 Coq.Init.Logic <> ::type_scope:'~'_x not
+R85:89 Axioms <> :::x_'∈'_x not
+R84:84 Sets <> x:2 var
+R90:90 Sets <> e:1 var
+R112:120 Axioms <> Existance prfax
+R146:158 Axioms <> Comprehension prfax
+binder 165:165 <> x:3
+R171:174 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R170:170 Sets <> x:3 var
+R175:175 Sets <> x:3 var
+R146:158 Axioms <> Comprehension prfax
+binder 165:165 <> x:4
+R171:174 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R170:170 Sets <> x:4 var
+R175:175 Sets <> x:4 var
+R393:406 Axioms <> Extensionality prfax
+R393:406 Axioms <> Extensionality prfax
+R550:556 Coq.Init.Logic <> eq_refl constr
+R550:556 Coq.Init.Logic <> eq_refl constr
+ax 599:603 <> Empty
+R607:609 Axioms <> set prfax
+ax 618:622 <> empty
+binder 635:635 <> x:6
+R638:639 Coq.Init.Logic <> ::type_scope:'~'_x not
+R641:645 Axioms <> :::x_'∈'_x not
+R640:640 Sets <> x:6 var
+R646:650 Sets <> Empty defax
+R671:675 Sets <> Empty defax
+not 662:662 <> :::'∅'
+def 712:717 <> Subset
+R726:728 Axioms <> set prfax
+binder 720:720 <> X:8
+binder 722:722 <> Y:9
+binder 741:741 <> x:10
+R751:754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R756:760 Axioms <> :::x_'∈'_x not
+R755:755 Sets <> x:10 var
+R761:761 Sets <> Y:9 var
+R745:749 Axioms <> :::x_'∈'_x not
+R744:744 Sets <> x:10 var
+R750:750 Sets <> X:8 var
+R787:792 Sets <> Subset def
+not 773:773 <> :::x_'⊂'_x
+prf 839:850 <> uniex_couple
+binder 863:863 <> X:11
+binder 865:865 <> Y:12
+R868:875 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R877:878 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+binder 876:876 <> U:13
+binder 886:886 <> Z:14
+R896:900 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R890:894 Axioms <> :::x_'∈'_x not
+R889:889 Sets <> Z:14 var
+R895:895 Sets <> U:13 var
+R906:909 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R902:904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R901:901 Sets <> Z:14 var
+R905:905 Sets <> X:11 var
+R911:913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R910:910 Sets <> Z:14 var
+R914:914 Sets <> Y:12 var
+R944:947 Axioms <> Pair prfax
+R944:947 Axioms <> Pair prfax
+R1010:1022 Axioms <> Comprehension prfax
+binder 1029:1029 <> x:15
+R1039:1042 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1035:1037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1034:1034 Sets <> x:15 var
+R1044:1046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1043:1043 Sets <> x:15 var
+R1010:1022 Axioms <> Comprehension prfax
+binder 1029:1029 <> x:16
+R1039:1042 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1035:1037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1034:1034 Sets <> x:16 var
+R1044:1046 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1043:1043 Sets <> x:16 var
+R1239:1242 Coq.Init.Logic <> conj constr
+R1239:1242 Coq.Init.Logic <> conj constr
+R1284:1287 Coq.Init.Logic <> conj constr
+R1284:1287 Coq.Init.Logic <> conj constr
+R1325:1338 Axioms <> Extensionality prfax
+R1325:1338 Axioms <> Extensionality prfax
+R1533:1536 Coq.Init.Logic <> conj constr
+R1533:1536 Coq.Init.Logic <> conj constr
+R1578:1581 Coq.Init.Logic <> conj constr
+R1578:1581 Coq.Init.Logic <> conj constr
+ax 1613:1618 <> Couple
+R1625:1628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1632:1635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1636:1638 Axioms <> set prfax
+R1629:1631 Axioms <> set prfax
+R1622:1624 Axioms <> set prfax
+ax 1647:1652 <> couple
+binder 1665:1665 <> X:18
+binder 1667:1667 <> Y:19
+binder 1669:1669 <> z:20
+R1691:1695 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1673:1679 Axioms <> :::x_'∈'_x not
+R1690:1690 Axioms <> :::x_'∈'_x not
+R1672:1672 Sets <> z:20 var
+R1680:1685 Sets <> Couple prfax
+R1689:1689 Sets <> Y:19 var
+R1687:1687 Sets <> X:18 var
+R1701:1704 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1697:1699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1696:1696 Sets <> z:20 var
+R1700:1700 Sets <> X:18 var
+R1706:1708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1705:1705 Sets <> z:20 var
+R1709:1709 Sets <> Y:19 var
+def 1724:1729 <> Single
+R1736:1738 Axioms <> set prfax
+binder 1732:1732 <> X:22
+R1744:1749 Sets <> Couple prfax
+R1753:1753 Sets <> X:22 var
+R1751:1751 Sets <> X:22 var
+def 1769:1777 <> OrderPair
+R1786:1788 Axioms <> set prfax
+binder 1780:1780 <> X:23
+binder 1782:1782 <> Y:24
+R1794:1799 Sets <> Couple prfax
+R1813:1818 Sets <> Couple prfax
+R1822:1822 Sets <> Y:24 var
+R1820:1820 Sets <> X:23 var
+R1802:1807 Sets <> Single def
+R1809:1809 Sets <> X:23 var
+R1853:1861 Sets <> OrderPair def
+not 1835:1835 <> :::'<|'_x_','_x_'|>'
+def 1914:1917 <> Diff
+R1926:1928 Axioms <> set prfax
+binder 1920:1920 <> X:25
+binder 1922:1922 <> Y:26
+R1934:1934 Axioms <> :::'{'_x_';'_x_'}' not
+R1936:1938 Axioms <> :::'{'_x_';'_x_'}' not
+R1957:1957 Axioms <> :::'{'_x_';'_x_'}' not
+R1935:1935 Sets <> X:25 var
+binder 1943:1943 <> x:27
+R1948:1949 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1951:1955 Axioms <> :::x_'∈'_x not
+R1950:1950 Sets <> x:27 var
+R1956:1956 Sets <> Y:26 var
+R1982:1985 Sets <> Diff def
+not 1969:1969 <> :::x_'//'_x
+prf 2014:2017 <> diff
+R2026:2028 Axioms <> set prfax
+binder 2020:2020 <> X:28
+binder 2022:2022 <> Y:29
+binder 2042:2042 <> x:30
+R2065:2069 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2046:2051 Axioms <> :::x_'∈'_x not
+R2063:2064 Axioms <> :::x_'∈'_x not
+R2045:2045 Sets <> x:30 var
+R2053:2061 Sets <> :::x_'//'_x not
+R2052:2052 Sets <> X:28 var
+R2062:2062 Sets <> Y:29 var
+R2077:2080 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2071:2075 Axioms <> :::x_'∈'_x not
+R2070:2070 Sets <> x:30 var
+R2076:2076 Sets <> X:28 var
+R2081:2082 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2084:2088 Axioms <> :::x_'∈'_x not
+R2083:2083 Sets <> x:30 var
+R2089:2089 Sets <> Y:29 var
+R2123:2127 Axioms <> class prfax
+R2123:2127 Axioms <> class prfax
+R2123:2127 Axioms <> class prfax
+def 2164:2169 <> isCups
+R2176:2178 Axioms <> set prfax
+binder 2172:2172 <> X:31
+binder 2189:2189 <> x:32
+R2194:2200 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2202:2203 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2201:2201 <> Y:33
+R2211:2214 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2205:2209 Axioms <> :::x_'∈'_x not
+R2204:2204 Sets <> x:32 var
+R2210:2210 Sets <> Y:33 var
+R2216:2219 Axioms <> :::x_'∈'_x not
+R2215:2215 Sets <> Y:33 var
+R2220:2220 Sets <> X:31 var
+prf 2233:2243 <> exists_cups
+R2250:2252 Axioms <> set prfax
+binder 2246:2246 <> X:34
+R2258:2269 Axioms <> exists_class def
+R2272:2277 Sets <> isCups def
+R2279:2279 Sets <> X:34 var
+R2304:2308 Axioms <> Union prfax
+R2304:2308 Axioms <> Union prfax
+R2357:2369 Axioms <> Comprehension prfax
+R2372:2377 Sets <> isCups def
+R2357:2369 Axioms <> Comprehension prfax
+R2372:2377 Sets <> isCups def
+R2585:2588 Coq.Init.Logic <> conj constr
+R2585:2588 Coq.Init.Logic <> conj constr
+def 2614:2617 <> Cups
+R2624:2626 Axioms <> set prfax
+binder 2620:2620 <> X:35
+R2634:2638 Axioms <> Class prfax
+R2652:2662 Sets <> exists_cups thm
+R2664:2664 Sets <> X:35 var
+R2641:2646 Sets <> isCups def
+R2648:2648 Sets <> X:35 var
+R2690:2693 Sets <> Cups def
+not 2678:2678 <> :::'⊔'_x
+prf 2720:2723 <> cups
+R2730:2732 Axioms <> set prfax
+binder 2726:2726 <> X:36
+binder 2746:2746 <> x:37
+R2762:2766 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2750:2755 Axioms <> :::x_'∈'_x not
+R2761:2761 Axioms <> :::x_'∈'_x not
+R2749:2749 Sets <> x:37 var
+R2756:2759 Sets <> :::'⊔'_x not
+R2760:2760 Sets <> X:36 var
+R2767:2773 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2775:2776 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2774:2774 <> Y:38
+R2784:2787 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2778:2782 Axioms <> :::x_'∈'_x not
+R2777:2777 Sets <> x:37 var
+R2783:2783 Sets <> Y:38 var
+R2789:2793 Axioms <> :::x_'∈'_x not
+R2788:2788 Sets <> Y:38 var
+R2794:2794 Sets <> X:36 var
+R2828:2832 Axioms <> class prfax
+R2828:2832 Axioms <> class prfax
+R2828:2832 Axioms <> class prfax
+def 2852:2854 <> Cup
+binder 2856:2856 <> X:39
+binder 2858:2858 <> Y:40
+R2863:2866 Sets <> Cups def
+R2869:2874 Sets <> Couple prfax
+R2878:2878 Sets <> Y:40 var
+R2876:2876 Sets <> X:39 var
+R2905:2907 Sets <> Cup def
+not 2891:2891 <> :::x_'∪'_x
+prf 2936:2938 <> cup
+R2947:2949 Axioms <> set prfax
+binder 2941:2941 <> X:41
+binder 2943:2943 <> Y:42
+binder 2963:2963 <> x:43
+R2981:2986 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2967:2972 Axioms <> :::x_'∈'_x not
+R2980:2980 Axioms <> :::x_'∈'_x not
+R2966:2966 Sets <> x:43 var
+R2974:2978 Sets <> :::x_'∪'_x not
+R2973:2973 Sets <> X:41 var
+R2979:2979 Sets <> Y:42 var
+R2994:2997 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2988:2992 Axioms <> :::x_'∈'_x not
+R2987:2987 Sets <> x:43 var
+R2993:2993 Sets <> X:41 var
+R2999:3003 Axioms <> :::x_'∈'_x not
+R2998:2998 Sets <> x:43 var
+R3004:3004 Sets <> Y:42 var
+R3056:3060 Axioms <> class prfax
+R3056:3060 Axioms <> class prfax
+R3133:3138 Sets <> couple prfax
+R3133:3138 Sets <> couple prfax
+R3202:3210 Coq.Init.Logic <> or_introl constr
+R3202:3210 Coq.Init.Logic <> or_introl constr
+R3235:3243 Coq.Init.Logic <> or_intror constr
+R3235:3243 Coq.Init.Logic <> or_intror constr
+R3256:3260 Axioms <> class prfax
+R3256:3260 Axioms <> class prfax
+R3274:3279 Sets <> isCups def
+R3341:3344 Coq.Init.Logic <> conj constr
+R3341:3344 Coq.Init.Logic <> conj constr
+R3363:3368 Sets <> couple prfax
+R3363:3368 Sets <> couple prfax
+R3386:3394 Coq.Init.Logic <> or_introl constr
+R3386:3394 Coq.Init.Logic <> or_introl constr
+R3426:3429 Coq.Init.Logic <> conj constr
+R3426:3429 Coq.Init.Logic <> conj constr
+R3448:3453 Sets <> couple prfax
+R3448:3453 Sets <> couple prfax
+R3471:3479 Coq.Init.Logic <> or_intror constr
+R3471:3479 Coq.Init.Logic <> or_intror constr
+def 3525:3527 <> Cap
+binder 3529:3529 <> X:44
+binder 3531:3531 <> Y:45
+R3536:3536 Axioms <> :::'{'_x_';'_x_'}' not
+R3538:3541 Axioms <> :::'{'_x_';'_x_'}' not
+R3558:3559 Axioms <> :::'{'_x_';'_x_'}' not
+R3537:3537 Sets <> X:44 var
+binder 3546:3546 <> x:46
+R3552:3556 Axioms <> :::x_'∈'_x not
+R3551:3551 Sets <> x:46 var
+R3557:3557 Sets <> Y:45 var
+R3585:3587 Sets <> Cap def
+not 3571:3571 <> :::x_'∩'_x
+prf 3619:3621 <> cap
+R3630:3632 Axioms <> set prfax
+binder 3624:3624 <> X:47
+binder 3626:3626 <> Y:48
+binder 3646:3646 <> x:49
+R3664:3668 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3650:3655 Axioms <> :::x_'∈'_x not
+R3663:3663 Axioms <> :::x_'∈'_x not
+R3649:3649 Sets <> x:49 var
+R3657:3661 Sets <> :::x_'∩'_x not
+R3656:3656 Sets <> X:47 var
+R3662:3662 Sets <> Y:48 var
+R3676:3679 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3670:3674 Axioms <> :::x_'∈'_x not
+R3669:3669 Sets <> x:49 var
+R3675:3675 Sets <> X:47 var
+R3681:3685 Axioms <> :::x_'∈'_x not
+R3680:3680 Sets <> x:49 var
+R3686:3686 Sets <> Y:48 var
+R3722:3726 Axioms <> class prfax
+R3722:3726 Axioms <> class prfax
+R3722:3726 Axioms <> class prfax
+def 3752:3757 <> isCaps
+R3764:3766 Axioms <> set prfax
+binder 3760:3760 <> X:50
+binder 3776:3776 <> x:51
+binder 3788:3788 <> Y:52
+R3798:3801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3803:3807 Axioms <> :::x_'∈'_x not
+R3802:3802 Sets <> x:51 var
+R3808:3808 Sets <> Y:52 var
+R3792:3796 Axioms <> :::x_'∈'_x not
+R3791:3791 Sets <> Y:52 var
+R3797:3797 Sets <> X:50 var
+prf 3820:3828 <> not_empty
+R3835:3837 Axioms <> set prfax
+binder 3831:3831 <> X:53
+R3852:3855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3856:3862 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3864:3865 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3863:3863 <> x:54
+R3867:3871 Axioms <> :::x_'∈'_x not
+R3866:3866 Sets <> x:54 var
+R3872:3872 Sets <> X:53 var
+R3845:3848 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R3844:3844 Sets <> X:53 var
+R3849:3851 Sets <> :::'∅' not
+R3890:3903 Logics <> contrapositive thm
+R3890:3903 Logics <> contrapositive thm
+R3925:3938 Logics <> DoubleNegative thm
+R3925:3938 Logics <> DoubleNegative thm
+R3949:3962 Axioms <> Extensionality prfax
+R3949:3962 Axioms <> Extensionality prfax
+R3984:3988 Sets <> empty prfax
+R3984:3988 Sets <> empty prfax
+R3984:3988 Sets <> empty prfax
+R4011:4026 Logics <> allnot_notexists thm
+R4011:4026 Logics <> allnot_notexists thm
+R4011:4026 Logics <> allnot_notexists thm
+prf 4152:4162 <> exists_caps
+R4169:4171 Axioms <> set prfax
+binder 4165:4165 <> X:55
+R4188:4191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4192:4203 Axioms <> exists_class def
+R4206:4211 Sets <> isCaps def
+R4213:4213 Sets <> X:55 var
+R4179:4182 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4178:4178 Sets <> X:55 var
+R4183:4187 Sets <> Empty defax
+R4250:4258 Sets <> not_empty thm
+R4250:4258 Sets <> not_empty thm
+R4312:4324 Axioms <> Comprehension prfax
+R4327:4332 Sets <> isCaps def
+R4312:4324 Axioms <> Comprehension prfax
+R4327:4332 Sets <> isCaps def
+R4459:4464 Sets <> isCaps def
+R4546:4549 Coq.Init.Logic <> conj constr
+R4546:4549 Coq.Init.Logic <> conj constr
+def 4613:4616 <> Caps
+R4623:4625 Axioms <> set prfax
+binder 4619:4619 <> X:56
+R4634:4637 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4633:4633 Sets <> X:56 var
+R4638:4642 Sets <> Empty defax
+binder 4629:4629 <> H:57
+R4648:4652 Axioms <> Class prfax
+R4666:4676 Sets <> exists_caps thm
+R4680:4680 Sets <> H:57 var
+R4678:4678 Sets <> X:56 var
+R4655:4660 Sets <> isCaps def
+R4662:4662 Sets <> X:56 var
+R4705:4708 Sets <> Caps def
+not 4693:4693 <> :::'⊓'_x
+prf 4736:4739 <> caps
+R4746:4748 Axioms <> set prfax
+binder 4742:4742 <> X:58
+R4757:4760 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4756:4756 Sets <> X:58 var
+R4761:4765 Sets <> Empty defax
+binder 4752:4752 <> H:59
+binder 4778:4778 <> x:60
+R4798:4802 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4782:4787 Axioms <> :::x_'∈'_x not
+R4797:4797 Axioms <> :::x_'∈'_x not
+R4781:4781 Sets <> x:60 var
+R4789:4792 Sets <> Caps def
+R4796:4796 Sets <> H:59 var
+R4794:4794 Sets <> X:58 var
+binder 4810:4810 <> Y:61
+R4820:4823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4825:4829 Axioms <> :::x_'∈'_x not
+R4824:4824 Sets <> x:60 var
+R4830:4830 Sets <> Y:61 var
+R4814:4818 Axioms <> :::x_'∈'_x not
+R4813:4813 Sets <> Y:61 var
+R4819:4819 Sets <> X:58 var
+R4864:4868 Axioms <> class prfax
+R4864:4868 Axioms <> class prfax
+R4864:4868 Axioms <> class prfax
+def 4926:4928 <> Suc
+R4935:4937 Axioms <> set prfax
+binder 4931:4931 <> X:62
+R4944:4949 Sets <> :::x_'∪'_x not
+R4958:4958 Sets <> :::x_'∪'_x not
+R4943:4943 Sets <> X:62 var
+R4950:4955 Sets <> Single def
+R4957:4957 Sets <> X:62 var
+def 5013:5022 <> isPowerset
+R5029:5031 Axioms <> set prfax
+binder 5025:5025 <> X:63
+binder 5041:5041 <> Y:64
+R5047:5051 Sets <> :::x_'⊂'_x not
+R5046:5046 Sets <> Y:64 var
+R5052:5052 Sets <> X:63 var
+prf 5064:5078 <> exists_powerset
+R5085:5087 Axioms <> set prfax
+binder 5081:5081 <> X:65
+R5094:5105 Axioms <> exists_class def
+binder 5112:5112 <> Y:66
+R5118:5122 Sets <> :::x_'⊂'_x not
+R5117:5117 Sets <> Y:66 var
+R5123:5123 Sets <> X:65 var
+R5148:5152 Axioms <> Power prfax
+R5148:5152 Axioms <> Power prfax
+R5205:5217 Axioms <> Comprehension prfax
+R5220:5229 Sets <> isPowerset def
+R5205:5217 Axioms <> Comprehension prfax
+R5220:5229 Sets <> isPowerset def
+def 5413:5420 <> Powerset
+R5427:5429 Axioms <> set prfax
+binder 5423:5423 <> X:67
+R5437:5441 Axioms <> Class prfax
+R5459:5473 Sets <> exists_powerset thm
+R5475:5475 Sets <> X:67 var
+R5444:5453 Sets <> isPowerset def
+R5455:5455 Sets <> X:67 var
+R5501:5508 Sets <> Powerset def
+not 5488:5488 <> :::'P['_x_']'
+prf 5537:5544 <> powerset
+R5551:5553 Axioms <> set prfax
+binder 5547:5547 <> X:68
+binder 5567:5567 <> x:69
+R5582:5586 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5571:5576 Axioms <> :::x_'∈'_x not
+R5581:5581 Axioms <> :::x_'∈'_x not
+R5570:5570 Sets <> x:69 var
+R5577:5578 Sets <> :::'P['_x_']' not
+R5580:5580 Sets <> :::'P['_x_']' not
+R5579:5579 Sets <> X:68 var
+R5588:5592 Sets <> :::x_'⊂'_x not
+R5587:5587 Sets <> x:69 var
+R5593:5593 Sets <> X:68 var
+R5627:5631 Axioms <> class prfax
+R5627:5631 Axioms <> class prfax
+R5627:5631 Axioms <> class prfax

@@ -1,0 +1,526 @@
+DIGEST e03c11a30731d9a27fcee6a58eebb69a
+FSets_Theorems
+R15:18 Sets <> <> lib
+prf 63:80 <> notex_universalset
+R86:87 Coq.Init.Logic <> ::type_scope:'~'_x not
+R88:94 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R96:97 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 95:95 <> U:1
+binder 105:105 <> x:2
+R109:113 Axioms <> :::x_'∈'_x not
+R108:108 Sets_Theorems <> x:2 var
+R114:114 Sets_Theorems <> U:1 var
+R173:185 Axioms <> Comprehension prfax
+binder 192:192 <> x:3
+R197:198 Coq.Init.Logic <> ::type_scope:'~'_x not
+R200:205 Axioms <> :::x_'∈'_x not
+R199:199 Sets_Theorems <> x:3 var
+R206:206 Sets_Theorems <> x:3 var
+R173:185 Axioms <> Comprehension prfax
+binder 192:192 <> x:4
+R197:198 Coq.Init.Logic <> ::type_scope:'~'_x not
+R200:205 Axioms <> :::x_'∈'_x not
+R199:199 Sets_Theorems <> x:4 var
+R206:206 Sets_Theorems <> x:4 var
+R291:304 Logics <> ExcludedMiddle prfax
+R308:312 Axioms <> :::x_'∈'_x not
+R291:304 Logics <> ExcludedMiddle prfax
+R308:312 Axioms <> :::x_'∈'_x not
+R460:463 Coq.Init.Logic <> conj constr
+R460:463 Coq.Init.Logic <> conj constr
+prf 599:604 <> x_xOPy
+R613:615 Axioms <> set prfax
+binder 607:607 <> x:5
+binder 609:609 <> y:6
+R630:634 Axioms <> :::x_'∈'_x not
+R622:627 Sets <> Single def
+R629:629 Sets_Theorems <> x:5 var
+R635:636 Sets <> :::'<|'_x_','_x_'|>' not
+R638:638 Sets <> :::'<|'_x_','_x_'|>' not
+R640:641 Sets <> :::'<|'_x_','_x_'|>' not
+R637:637 Sets_Theorems <> x:5 var
+R639:639 Sets_Theorems <> y:6 var
+R659:664 Sets <> couple prfax
+R659:664 Sets <> couple prfax
+R678:686 Coq.Init.Logic <> or_introl constr
+R678:686 Coq.Init.Logic <> or_introl constr
+prf 701:707 <> xy_xOPy
+R716:718 Axioms <> set prfax
+binder 710:710 <> x:7
+binder 712:712 <> y:8
+R736:740 Axioms <> :::x_'∈'_x not
+R726:731 Sets <> Couple prfax
+R735:735 Sets_Theorems <> y:8 var
+R733:733 Sets_Theorems <> x:7 var
+R741:742 Sets <> :::'<|'_x_','_x_'|>' not
+R744:744 Sets <> :::'<|'_x_','_x_'|>' not
+R746:747 Sets <> :::'<|'_x_','_x_'|>' not
+R743:743 Sets_Theorems <> x:7 var
+R745:745 Sets_Theorems <> y:8 var
+R765:770 Sets <> couple prfax
+R765:770 Sets <> couple prfax
+R784:792 Coq.Init.Logic <> or_intror constr
+R784:792 Coq.Init.Logic <> or_intror constr
+prf 807:812 <> single
+R819:821 Axioms <> set prfax
+binder 815:815 <> x:9
+binder 835:835 <> y:10
+R854:858 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R839:844 Axioms <> :::x_'∈'_x not
+R853:853 Axioms <> :::x_'∈'_x not
+R838:838 Sets_Theorems <> y:10 var
+R845:850 Sets <> Single def
+R852:852 Sets_Theorems <> x:9 var
+R860:862 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R859:859 Sets_Theorems <> y:10 var
+R863:863 Sets_Theorems <> x:9 var
+R915:920 Sets <> couple prfax
+R915:920 Sets <> couple prfax
+R998:1003 Sets <> couple prfax
+R998:1003 Sets <> couple prfax
+R998:1003 Sets <> couple prfax
+R1017:1025 Coq.Init.Logic <> or_intror constr
+R1017:1025 Coq.Init.Logic <> or_intror constr
+prf 1050:1053 <> x_xx
+R1060:1062 Axioms <> set prfax
+binder 1056:1056 <> x:11
+R1070:1075 Axioms <> :::x_'∈'_x not
+R1084:1084 Axioms <> :::x_'∈'_x not
+R1069:1069 Sets_Theorems <> x:11 var
+R1076:1081 Sets <> Single def
+R1083:1083 Sets_Theorems <> x:11 var
+R1102:1107 Sets <> couple prfax
+R1102:1107 Sets <> couple prfax
+R1121:1129 Coq.Init.Logic <> or_introl constr
+R1121:1129 Coq.Init.Logic <> or_introl constr
+prf 1150:1153 <> x_xy
+R1162:1164 Axioms <> set prfax
+binder 1156:1156 <> x:12
+binder 1158:1158 <> y:13
+R1172:1177 Axioms <> :::x_'∈'_x not
+R1188:1188 Axioms <> :::x_'∈'_x not
+R1171:1171 Sets_Theorems <> x:12 var
+R1178:1183 Sets <> Couple prfax
+R1187:1187 Sets_Theorems <> y:13 var
+R1185:1185 Sets_Theorems <> x:12 var
+R1206:1211 Sets <> couple prfax
+R1206:1211 Sets <> couple prfax
+R1225:1233 Coq.Init.Logic <> or_introl constr
+R1225:1233 Coq.Init.Logic <> or_introl constr
+prf 1250:1253 <> y_xy
+R1261:1263 Axioms <> set prfax
+binder 1256:1256 <> x:14
+binder 1258:1258 <> y:15
+R1271:1276 Axioms <> :::x_'∈'_x not
+R1287:1287 Axioms <> :::x_'∈'_x not
+R1270:1270 Sets_Theorems <> y:15 var
+R1277:1282 Sets <> Couple prfax
+R1286:1286 Sets_Theorems <> y:15 var
+R1284:1284 Sets_Theorems <> x:14 var
+R1307:1312 Sets <> couple prfax
+R1307:1312 Sets <> couple prfax
+R1326:1334 Coq.Init.Logic <> or_intror constr
+R1326:1334 Coq.Init.Logic <> or_intror constr
+prf 1349:1361 <> single_single
+R1370:1372 Axioms <> set prfax
+binder 1364:1364 <> x:16
+binder 1366:1366 <> X:17
+R1398:1402 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1387:1389 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1379:1384 Sets <> Single def
+R1386:1386 Sets_Theorems <> x:16 var
+R1390:1395 Sets <> Single def
+R1397:1397 Sets_Theorems <> X:17 var
+R1404:1406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1403:1403 Sets_Theorems <> x:16 var
+R1407:1407 Sets_Theorems <> X:17 var
+R1453:1456 Sets_Theorems <> x_xx thm
+R1453:1456 Sets_Theorems <> x_xx thm
+R1509:1514 Sets_Theorems <> single thm
+R1509:1514 Sets_Theorems <> single thm
+prf 1562:1574 <> single_couple
+R1585:1587 Axioms <> set prfax
+binder 1577:1577 <> x:18
+binder 1579:1579 <> X:19
+binder 1581:1581 <> Y:20
+R1615:1619 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1602:1604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1594:1599 Sets <> Single def
+R1601:1601 Sets_Theorems <> x:18 var
+R1605:1610 Sets <> Couple prfax
+R1614:1614 Sets_Theorems <> Y:20 var
+R1612:1612 Sets_Theorems <> X:19 var
+R1625:1628 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1621:1623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1620:1620 Sets_Theorems <> x:18 var
+R1624:1624 Sets_Theorems <> X:19 var
+R1630:1632 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1629:1629 Sets_Theorems <> x:18 var
+R1633:1633 Sets_Theorems <> Y:20 var
+R1657:1660 Sets_Theorems <> x_xy thm
+R1657:1660 Sets_Theorems <> x_xy thm
+R1690:1693 Sets_Theorems <> y_xy thm
+R1690:1693 Sets_Theorems <> y_xy thm
+R1791:1796 Sets_Theorems <> single thm
+R1791:1796 Sets_Theorems <> single thm
+R1817:1822 Sets_Theorems <> single thm
+R1817:1822 Sets_Theorems <> single thm
+prf 1895:1907 <> couple_couple
+R1920:1922 Axioms <> set prfax
+binder 1910:1910 <> x:21
+binder 1912:1912 <> y:22
+binder 1914:1914 <> X:23
+binder 1916:1916 <> Y:24
+R1952:1955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1956:1956 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1971:1976 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1991:1991 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1962:1965 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1958:1960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1957:1957 Sets_Theorems <> x:21 var
+R1961:1961 Sets_Theorems <> X:23 var
+R1967:1969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1966:1966 Sets_Theorems <> x:21 var
+R1970:1970 Sets_Theorems <> Y:24 var
+R1982:1985 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1978:1980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1977:1977 Sets_Theorems <> y:22 var
+R1981:1981 Sets_Theorems <> X:23 var
+R1987:1989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1986:1986 Sets_Theorems <> y:22 var
+R1990:1990 Sets_Theorems <> Y:24 var
+R1939:1941 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1929:1934 Sets <> Couple prfax
+R1938:1938 Sets_Theorems <> y:22 var
+R1936:1936 Sets_Theorems <> x:21 var
+R1942:1947 Sets <> Couple prfax
+R1951:1951 Sets_Theorems <> Y:24 var
+R1949:1949 Sets_Theorems <> X:23 var
+R2026:2029 Sets_Theorems <> x_xy thm
+R2026:2029 Sets_Theorems <> x_xy thm
+R2060:2063 Sets_Theorems <> y_xy thm
+R2060:2063 Sets_Theorems <> y_xy thm
+R2143:2148 Sets <> couple prfax
+R2143:2148 Sets <> couple prfax
+R2168:2173 Sets <> couple prfax
+R2168:2173 Sets <> couple prfax
+prf 2207:2219 <> couple_single
+R2230:2232 Axioms <> set prfax
+binder 2222:2222 <> x:25
+binder 2224:2224 <> y:26
+binder 2226:2226 <> X:27
+R2260:2264 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2249:2251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2239:2244 Sets <> Couple prfax
+R2248:2248 Sets_Theorems <> y:26 var
+R2246:2246 Sets_Theorems <> x:25 var
+R2252:2257 Sets <> Single def
+R2259:2259 Sets_Theorems <> X:27 var
+R2270:2273 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2266:2268 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2265:2265 Sets_Theorems <> x:25 var
+R2269:2269 Sets_Theorems <> X:27 var
+R2275:2277 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2274:2274 Sets_Theorems <> y:26 var
+R2278:2278 Sets_Theorems <> X:27 var
+R2302:2305 Sets_Theorems <> x_xy thm
+R2302:2305 Sets_Theorems <> x_xy thm
+R2336:2339 Sets_Theorems <> y_xy thm
+R2336:2339 Sets_Theorems <> y_xy thm
+R2434:2439 Sets_Theorems <> single thm
+R2434:2439 Sets_Theorems <> single thm
+R2461:2466 Sets_Theorems <> single thm
+R2461:2466 Sets_Theorems <> single thm
+prf 2551:2562 <> eq_OrderPair
+R2575:2577 Axioms <> set prfax
+binder 2565:2565 <> x:28
+binder 2567:2567 <> y:29
+binder 2569:2569 <> X:30
+binder 2571:2571 <> Y:31
+R2601:2605 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2591:2593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2584:2585 Sets <> :::'<|'_x_','_x_'|>' not
+R2587:2587 Sets <> :::'<|'_x_','_x_'|>' not
+R2589:2590 Sets <> :::'<|'_x_','_x_'|>' not
+R2586:2586 Sets_Theorems <> x:28 var
+R2588:2588 Sets_Theorems <> y:29 var
+R2594:2595 Sets <> :::'<|'_x_','_x_'|>' not
+R2597:2597 Sets <> :::'<|'_x_','_x_'|>' not
+R2599:2600 Sets <> :::'<|'_x_','_x_'|>' not
+R2596:2596 Sets_Theorems <> X:30 var
+R2598:2598 Sets_Theorems <> Y:31 var
+R2611:2614 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2607:2609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2606:2606 Sets_Theorems <> x:28 var
+R2610:2610 Sets_Theorems <> X:30 var
+R2616:2618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2615:2615 Sets_Theorems <> y:29 var
+R2619:2619 Sets_Theorems <> Y:31 var
+R2641:2647 Sets_Theorems <> xy_xOPy thm
+R2641:2647 Sets_Theorems <> xy_xOPy thm
+R2673:2679 Sets_Theorems <> xy_xOPy thm
+R2673:2679 Sets_Theorems <> xy_xOPy thm
+R2705:2710 Sets_Theorems <> x_xOPy thm
+R2705:2710 Sets_Theorems <> x_xOPy thm
+R2810:2815 Sets <> couple prfax
+R2810:2815 Sets <> couple prfax
+R2832:2837 Sets <> couple prfax
+R2832:2837 Sets <> couple prfax
+R2854:2859 Sets <> couple prfax
+R2854:2859 Sets <> couple prfax
+R2876:2889 Logics <> ExcludedMiddle prfax
+R2893:2895 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2876:2889 Logics <> ExcludedMiddle prfax
+R2893:2895 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2977:2989 Sets_Theorems <> single_single thm
+R2977:2989 Sets_Theorems <> single_single thm
+R3070:3082 Sets_Theorems <> couple_single thm
+R3070:3082 Sets_Theorems <> couple_single thm
+R3143:3155 Sets_Theorems <> couple_single thm
+R3143:3155 Sets_Theorems <> couple_single thm
+R3217:3229 Sets_Theorems <> single_couple thm
+R3217:3229 Sets_Theorems <> single_couple thm
+R3288:3300 Sets_Theorems <> couple_single thm
+R3288:3300 Sets_Theorems <> couple_single thm
+R3363:3369 Coq.Init.Logic <> eq_refl constr
+R3363:3369 Coq.Init.Logic <> eq_refl constr
+R3388:3400 Sets_Theorems <> couple_couple thm
+R3388:3400 Sets_Theorems <> couple_couple thm
+R3495:3507 Sets_Theorems <> single_single thm
+R3495:3507 Sets_Theorems <> single_single thm
+R3537:3540 Coq.Init.Logic <> conj constr
+R3537:3540 Coq.Init.Logic <> conj constr
+R3621:3623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3621:3623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3689:3701 Sets_Theorems <> single_couple thm
+R3689:3701 Sets_Theorems <> single_couple thm
+R3762:3765 Coq.Init.Logic <> conj constr
+R3768:3774 Coq.Init.Logic <> eq_refl constr
+R3762:3765 Coq.Init.Logic <> conj constr
+R3768:3774 Coq.Init.Logic <> eq_refl constr
+prf 3907:3913 <> cap_sym
+R3923:3925 Axioms <> set prfax
+binder 3917:3917 <> A:32
+binder 3919:3919 <> B:33
+R3941:3943 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3935:3939 Sets <> :::x_'∩'_x not
+R3934:3934 Sets_Theorems <> A:32 var
+R3940:3940 Sets_Theorems <> B:33 var
+R3945:3949 Sets <> :::x_'∩'_x not
+R3944:3944 Sets_Theorems <> B:33 var
+R3950:3950 Sets_Theorems <> A:32 var
+R3968:3981 Axioms <> Extensionality prfax
+R3968:3981 Axioms <> Extensionality prfax
+R4012:4014 Sets <> cap thm
+R4012:4014 Sets <> cap thm
+R4012:4014 Sets <> cap thm
+R4012:4014 Sets <> cap thm
+R4012:4014 Sets <> cap thm
+R4012:4014 Sets <> cap thm
+R4012:4014 Sets <> cap thm
+prf 4095:4101 <> cup_sym
+R4110:4112 Axioms <> set prfax
+binder 4104:4104 <> A:34
+binder 4106:4106 <> B:35
+R4126:4128 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4120:4124 Sets <> :::x_'∪'_x not
+R4119:4119 Sets_Theorems <> A:34 var
+R4125:4125 Sets_Theorems <> B:35 var
+R4130:4134 Sets <> :::x_'∪'_x not
+R4129:4129 Sets_Theorems <> B:35 var
+R4135:4135 Sets_Theorems <> A:34 var
+R4157:4170 Axioms <> Extensionality prfax
+R4157:4170 Axioms <> Extensionality prfax
+R4197:4199 Sets <> cap thm
+R4197:4199 Sets <> cap thm
+R4197:4199 Sets <> cap thm
+R4214:4219 Sets <> isCups def
+R4241:4243 Sets <> cup thm
+R4241:4243 Sets <> cup thm
+R4241:4243 Sets <> cup thm
+R4241:4243 Sets <> cup thm
+R4241:4243 Sets <> cup thm
+R4241:4243 Sets <> cup thm
+R4241:4243 Sets <> cup thm
+R4311:4319 Coq.Init.Logic <> or_intror constr
+R4311:4319 Coq.Init.Logic <> or_intror constr
+R4338:4346 Coq.Init.Logic <> or_introl constr
+R4338:4346 Coq.Init.Logic <> or_introl constr
+R4403:4411 Coq.Init.Logic <> or_intror constr
+R4403:4411 Coq.Init.Logic <> or_intror constr
+R4432:4440 Coq.Init.Logic <> or_introl constr
+R4432:4440 Coq.Init.Logic <> or_introl constr
+prf 4471:4484 <> cap_dist_cup_l
+R4495:4497 Axioms <> set prfax
+binder 4487:4487 <> A:36
+binder 4489:4489 <> B:37
+binder 4491:4491 <> C:38
+R4521:4524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4507:4512 Sets <> :::x_'∩'_x not
+R4520:4520 Sets <> :::x_'∩'_x not
+R4506:4506 Sets_Theorems <> A:36 var
+R4514:4518 Sets <> :::x_'∪'_x not
+R4513:4513 Sets_Theorems <> B:37 var
+R4519:4519 Sets_Theorems <> C:38 var
+R4525:4525 Sets <> :::x_'∪'_x not
+R4533:4539 Sets <> :::x_'∪'_x not
+R4547:4547 Sets <> :::x_'∪'_x not
+R4527:4531 Sets <> :::x_'∩'_x not
+R4526:4526 Sets_Theorems <> A:36 var
+R4532:4532 Sets_Theorems <> B:37 var
+R4541:4545 Sets <> :::x_'∩'_x not
+R4540:4540 Sets_Theorems <> A:36 var
+R4546:4546 Sets_Theorems <> C:38 var
+R4569:4582 Axioms <> Extensionality prfax
+R4569:4582 Axioms <> Extensionality prfax
+R4609:4611 Sets <> cup thm
+R4609:4611 Sets <> cup thm
+R4609:4611 Sets <> cup thm
+R4609:4611 Sets <> cup thm
+R4609:4611 Sets <> cup thm
+R4626:4628 Sets <> cap thm
+R4626:4628 Sets <> cap thm
+R4626:4628 Sets <> cap thm
+R4643:4645 Sets <> cup thm
+R4643:4645 Sets <> cup thm
+R4643:4645 Sets <> cup thm
+R4667:4669 Sets <> cap thm
+R4667:4669 Sets <> cap thm
+R4667:4669 Sets <> cap thm
+R4667:4669 Sets <> cap thm
+R4667:4669 Sets <> cap thm
+R4667:4669 Sets <> cap thm
+R4667:4669 Sets <> cap thm
+R4771:4779 Coq.Init.Logic <> or_introl constr
+R4771:4779 Coq.Init.Logic <> or_introl constr
+R4799:4807 Coq.Init.Logic <> or_intror constr
+R4799:4807 Coq.Init.Logic <> or_intror constr
+R4888:4891 Coq.Init.Logic <> conj constr
+R4896:4904 Coq.Init.Logic <> or_introl constr
+R4888:4891 Coq.Init.Logic <> conj constr
+R4896:4904 Coq.Init.Logic <> or_introl constr
+R4957:4960 Coq.Init.Logic <> conj constr
+R4965:4973 Coq.Init.Logic <> or_intror constr
+R4957:4960 Coq.Init.Logic <> conj constr
+R4965:4973 Coq.Init.Logic <> or_intror constr
+prf 4998:5011 <> cap_dist_cup_r
+R5022:5024 Axioms <> set prfax
+binder 5014:5014 <> A:39
+binder 5016:5016 <> B:40
+binder 5018:5018 <> C:41
+R5048:5050 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5033:5033 Sets <> :::x_'∩'_x not
+R5041:5046 Sets <> :::x_'∩'_x not
+R5035:5039 Sets <> :::x_'∪'_x not
+R5034:5034 Sets_Theorems <> B:40 var
+R5040:5040 Sets_Theorems <> C:41 var
+R5047:5047 Sets_Theorems <> A:39 var
+R5051:5051 Sets <> :::x_'∪'_x not
+R5059:5065 Sets <> :::x_'∪'_x not
+R5073:5073 Sets <> :::x_'∪'_x not
+R5053:5057 Sets <> :::x_'∩'_x not
+R5052:5052 Sets_Theorems <> B:40 var
+R5058:5058 Sets_Theorems <> A:39 var
+R5067:5071 Sets <> :::x_'∩'_x not
+R5066:5066 Sets_Theorems <> C:41 var
+R5072:5072 Sets_Theorems <> A:39 var
+R5106:5110 Sets <> :::x_'∩'_x not
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5106:5110 Sets <> :::x_'∩'_x not
+R5106:5110 Sets <> :::x_'∩'_x not
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5106:5110 Sets <> :::x_'∩'_x not
+R5106:5110 Sets <> :::x_'∩'_x not
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5106:5110 Sets <> :::x_'∩'_x not
+R5106:5110 Sets <> :::x_'∩'_x not
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5106:5110 Sets <> :::x_'∩'_x not
+R5106:5110 Sets <> :::x_'∩'_x not
+R5114:5120 Sets_Theorems <> cap_sym thm
+R5136:5149 Sets_Theorems <> cap_dist_cup_l thm
+R5136:5149 Sets_Theorems <> cap_dist_cup_l thm
+prf 5170:5183 <> cup_dist_cap_l
+R5194:5196 Axioms <> set prfax
+binder 5186:5186 <> A:42
+binder 5188:5188 <> B:43
+binder 5190:5190 <> C:44
+R5220:5222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5206:5211 Sets <> :::x_'∪'_x not
+R5219:5219 Sets <> :::x_'∪'_x not
+R5205:5205 Sets_Theorems <> A:42 var
+R5213:5217 Sets <> :::x_'∩'_x not
+R5212:5212 Sets_Theorems <> B:43 var
+R5218:5218 Sets_Theorems <> C:44 var
+R5223:5223 Sets <> :::x_'∩'_x not
+R5231:5237 Sets <> :::x_'∩'_x not
+R5245:5245 Sets <> :::x_'∩'_x not
+R5225:5229 Sets <> :::x_'∪'_x not
+R5224:5224 Sets_Theorems <> A:42 var
+R5230:5230 Sets_Theorems <> B:43 var
+R5239:5243 Sets <> :::x_'∪'_x not
+R5238:5238 Sets_Theorems <> A:42 var
+R5244:5244 Sets_Theorems <> C:44 var
+R5267:5280 Axioms <> Extensionality prfax
+R5267:5280 Axioms <> Extensionality prfax
+R5300:5302 Sets <> cup thm
+R5300:5302 Sets <> cup thm
+R5300:5302 Sets <> cup thm
+R5317:5319 Sets <> cap thm
+R5317:5319 Sets <> cap thm
+R5317:5319 Sets <> cap thm
+R5334:5336 Sets <> cap thm
+R5334:5336 Sets <> cap thm
+R5334:5336 Sets <> cap thm
+R5358:5360 Sets <> cup thm
+R5358:5360 Sets <> cup thm
+R5358:5360 Sets <> cup thm
+R5358:5360 Sets <> cup thm
+R5358:5360 Sets <> cup thm
+R5358:5360 Sets <> cup thm
+R5358:5360 Sets <> cup thm
+R5429:5432 Coq.Init.Logic <> conj constr
+R5449:5457 Coq.Init.Logic <> or_introl constr
+R5435:5443 Coq.Init.Logic <> or_introl constr
+R5429:5432 Coq.Init.Logic <> conj constr
+R5449:5457 Coq.Init.Logic <> or_introl constr
+R5435:5443 Coq.Init.Logic <> or_introl constr
+R5506:5509 Coq.Init.Logic <> conj constr
+R5526:5534 Coq.Init.Logic <> or_intror constr
+R5512:5520 Coq.Init.Logic <> or_intror constr
+R5506:5509 Coq.Init.Logic <> conj constr
+R5526:5534 Coq.Init.Logic <> or_intror constr
+R5512:5520 Coq.Init.Logic <> or_intror constr
+R5615:5623 Coq.Init.Logic <> or_introl constr
+R5615:5623 Coq.Init.Logic <> or_introl constr
+R5673:5681 Coq.Init.Logic <> or_introl constr
+R5673:5681 Coq.Init.Logic <> or_introl constr
+R5700:5708 Coq.Init.Logic <> or_intror constr
+R5711:5714 Coq.Init.Logic <> conj constr
+R5700:5708 Coq.Init.Logic <> or_intror constr
+R5711:5714 Coq.Init.Logic <> conj constr
+prf 5741:5754 <> cup_dist_cap_r
+R5765:5767 Axioms <> set prfax
+binder 5757:5757 <> A:45
+binder 5759:5759 <> B:46
+binder 5761:5761 <> C:47
+R5791:5793 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5776:5776 Sets <> :::x_'∪'_x not
+R5784:5789 Sets <> :::x_'∪'_x not
+R5778:5782 Sets <> :::x_'∩'_x not
+R5777:5777 Sets_Theorems <> B:46 var
+R5783:5783 Sets_Theorems <> C:47 var
+R5790:5790 Sets_Theorems <> A:45 var
+R5794:5794 Sets <> :::x_'∩'_x not
+R5802:5808 Sets <> :::x_'∩'_x not
+R5816:5816 Sets <> :::x_'∩'_x not
+R5796:5800 Sets <> :::x_'∪'_x not
+R5795:5795 Sets_Theorems <> B:46 var
+R5801:5801 Sets_Theorems <> A:45 var
+R5810:5814 Sets <> :::x_'∪'_x not
+R5809:5809 Sets_Theorems <> C:47 var
+R5815:5815 Sets_Theorems <> A:45 var

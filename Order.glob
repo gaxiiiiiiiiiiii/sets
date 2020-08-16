@@ -1,0 +1,86 @@
+DIGEST 4ddce2441214d508355f0a0ac355b89e
+FOrder
+R15:32 Relations_Theorems <> <> lib
+def 47:51 <> isMin
+R58:60 Relation <> Rel def
+binder 54:54 <> R:1
+R70:72 Axioms <> set prfax
+binder 64:64 <> X:2
+binder 66:66 <> y:3
+R87:90 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R81:85 Axioms <> :::x_'∈'_x not
+R80:80 Order <> y:3 var
+R86:86 Order <> X:2 var
+R91:92 Coq.Init.Logic <> ::type_scope:'~'_x not
+R93:99 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R101:102 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 100:100 <> z:4
+R110:113 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R104:108 Axioms <> :::x_'∈'_x not
+R103:103 Order <> z:4 var
+R109:109 Order <> X:2 var
+R121:125 Axioms <> :::x_'∈'_x not
+R114:115 Sets <> :::'<|'_x_','_x_'|>' not
+R117:117 Sets <> :::'<|'_x_','_x_'|>' not
+R119:120 Sets <> :::'<|'_x_','_x_'|>' not
+R116:116 Order <> z:4 var
+R118:118 Order <> y:3 var
+R126:126 Order <> R:1 var
+def 141:145 <> isMax
+R152:154 Relation <> Rel def
+binder 148:148 <> R:5
+R164:166 Axioms <> set prfax
+binder 158:158 <> X:6
+binder 160:160 <> y:7
+R181:184 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R175:179 Axioms <> :::x_'∈'_x not
+R174:174 Order <> y:7 var
+R180:180 Order <> X:6 var
+R185:186 Coq.Init.Logic <> ::type_scope:'~'_x not
+R187:193 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R195:196 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 194:194 <> z:8
+R204:207 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R198:202 Axioms <> :::x_'∈'_x not
+R197:197 Order <> z:8 var
+R203:203 Order <> X:6 var
+R215:219 Axioms <> :::x_'∈'_x not
+R208:209 Sets <> :::'<|'_x_','_x_'|>' not
+R211:211 Sets <> :::'<|'_x_','_x_'|>' not
+R213:214 Sets <> :::'<|'_x_','_x_'|>' not
+R210:210 Order <> y:7 var
+R212:212 Order <> z:8 var
+R220:220 Order <> R:5 var
+def 235:244 <> well_found
+R251:253 Relation <> Rel def
+binder 247:247 <> R:9
+R261:263 Axioms <> set prfax
+binder 257:257 <> A:10
+binder 278:278 <> X:11
+R288:291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R300:303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R304:310 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R312:313 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 311:311 <> x:12
+R314:318 Order <> isMin def
+R324:324 Order <> x:12 var
+R322:322 Order <> X:11 var
+R320:320 Order <> R:9 var
+R293:296 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R292:292 Order <> X:11 var
+R297:299 Sets <> :::'∅' not
+R282:286 Sets <> :::x_'⊂'_x not
+R281:281 Order <> X:11 var
+R287:287 Order <> A:10 var
+def 346:355 <> well_order
+R362:364 Relation <> Rel def
+binder 358:358 <> R:13
+R372:374 Axioms <> set prfax
+binder 368:368 <> A:14
+R396:399 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R382:391 Order <> well_found def
+R395:395 Order <> A:14 var
+R393:393 Order <> R:13 var
+R400:410 Relation <> total_order def
+R414:414 Order <> A:14 var
+R412:412 Order <> R:13 var

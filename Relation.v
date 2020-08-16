@@ -1,0 +1,415 @@
+Require Export Sets_Theorems.
+
+
+Definition Rel := set.
+
+
+Definition trans (R : Rel) (A : set) :=
+  forall x y z, x ∈ A -> y ∈ A -> z ∈A ->
+  <|x,y|> ∈         R  ->        <|y,z|> ∈ R -> <|x,z|> ∈R.
+
+Definition not_refl(R : Rel) (A : set) :=
+  forall x, x ∈ A -> ~ <|x,x|> ∈ R.
+
+Definition refl (R : Rel) (A : set) :=
+  forall x, x ∈ A -> <|x,x|>∈ R.
+
+Definition trich (R : Rel) (A : set) :=
+  forall x y, x ∈ A -> y ∈ A ->
+  <|x,y|> ∈ R \/ <|y,x|> ∈ R \/ x = y.
+
+Definition sym (R : Rel)(A : set) :=
+  forall x y, x ∈ A -> y ∈ A -> (<|x,y|> ∈ R <-> <|y,x|> ∈ R).
+
+
+Definition semi_order (R : Rel) (A : set) :=
+  trans R A /\ not_refl R A.
+
+Definition total_order (R : Rel)(A : set) :=
+  trans R A /\ not_refl R A /\ trich R A.
+
+Definition equivalence (R : Rel) (A : set) :=
+  refl R A /\ sym R A /\ trans R A.
+
+
+Definition Dom (R : Rel) :=
+  {⊔ ⊔ R ; fun x => exists y, <|x,y|> ∈ R}.
+Theorem dom {R : Rel} :
+  forall x, x ∈( Dom R) <-> exists y, <|x,y|> ∈ R.
+Proof.
+  intro x.
+  rewrite class.
+  split => [H | H].
+  + apply H.
+  + induction H as [y H]  .
+    split.
+    - apply cups.
+      exists (Single x).
+      split.
+      * by apply (single x).
+      * apply cups .
+        exists (<|x,y|>).
+        split.
+        apply (x_xOPy x y).
+        apply H.
+    - exists y.
+      done.
+Qed.
+
+Definition Ran (R : Rel) :=
+  {⊔ ⊔ R ; fun y => exists x, <|x,y|> ∈ R}.
+Theorem ran {R : Rel} :
+  forall y, y ∈ (Ran R) <-> exists x, <|x,y|> ∈ R.
+Proof.
+  intro y.
+  rewrite class.
+  split => [H | H].
+  + apply H.
+  + induction H as [x xy_R] .
+    split.
+    - apply cups.
+      exists (Couple x y) .
+      split.
+      * apply (y_xy x y)  .
+      * apply cups.
+        exists (<|x,y|>) .
+        apply (conj (xy_xOPy x y) xy_R).
+    - exists x.
+      apply xy_R.
+
+Qed.  
+
+  
+Definition Restriction R A :=
+  { R ; fun u => exists x y, u = <|x,y|> /\ x ∈ A}.
+Notation "R ↾ A" := (Restriction R A)(at level 10).  (* ⊺ : upharpoonright*)
+Theorem restriction R A :
+  forall u, u ∈ (R ↾ A  )  <->  u  ∈  R/\     exists x y, u = <|x,y|> /\ x ∈ A.
+Proof.
+  intros u.
+  by rewrite class.
+Qed.
+  
+
+Definition func (f : Rel):=
+  forall x, x ∈ (Dom f) -> exists !y, <|x,y|> ∈ f.
+
+Axiom Value : Rel -> set -> set.
+Axiom value :
+  forall f x, func f ->  <|x, (Value f x)|>  ∈f .
+
+Theorem eq_value {f x y : set} :
+  func f -> <|x,y|> ∈ f <-> y = (Value f x).
+Proof.
+  intro funcf.
+  specialize (value f x funcf) as H.
+  assert (x_domf : x ∈ (Dom f)).
+  apply dom.
+  by exists (Value f x).
+  specialize (funcf x x_domf).
+  induction funcf as [y_ uni_y].
+  induction uni_y as [xy_f H1].
+  split => [H2 | H2].
+  + apply (H1 y) in H2.
+    apply (H1 (Value f x)) in H.
+    by subst y_.
+  + by subst y.
+Qed.
+
+    
+Definition Map (F A B : set) :=
+  func F /\ Dom F = A /\ Ran F ⊂ B.
+Notation "F | A → B" := (Map F A B)(at level 10). (* → : rightarrow *)
+
+Definition Surjection (F A B : set) :=
+  F | A → B /\ Ran F = B.
+
+Definition Injection (F A B : set) :=
+  F | A → B  /\ forall x x', Value F x = Value F x' -> x = x'.
+
+Definition Bijection (F A B : set) :=
+  F | A → B /\ Ran F = B /\ forall x x', Value F x = Value F x' -> x = x'.
+             
+Definition Image F A := Ran (F ↾ A).
+Theorem image {f A} :
+  forall b , b     ∈    (Image f A)    <->    exists   a   ,   a   ∈   A /\   <|a,b|>  ∈     f.
+Proof.
+  intro b.
+  rewrite ran.
+  split => [H | H].
+  + induction H as [a H1].
+    apply restriction in H1.
+    induction H1 as [ab_f H1].
+    induction H1 as [x]; induction H as [y].
+    induction H as [abcy aA].
+    apply eq_OrderPair in abcy; induction abcy; subst x y.
+    by exists a.
+  + induction H as [a]; induction H as [aA ab_f].
+    exists a.
+    rewrite restriction.
+    apply (conj ab_f).
+    by exists a; exists b.
+Qed.
+    
+Definition Product (X Y : set) :=
+  {P[P[X ∪ Y]]; fun u => exists x y, x ∈ X /\ y ∈ Y /\ u = <|x,y|>}.
+Notation "X × Y" := (Product X Y) (at level 10).
+
+Theorem product X Y :
+  forall u, u ∈ (X × Y) <->exists x y, x ∈ X /\ y ∈ Y /\ u = <|x,y|>.
+Proof.
+  intro u.
+  rewrite class.
+  split => [H | H] .
+  + apply H.
+  + induction H as [x]; induction H as [y] .
+    induction H as [xX]; induction H as [yY u_xy].
+    split.
+    - apply powerset.
+      intros i iu.
+      apply powerset.
+      intros j ji.
+      rewrite cup.
+      rewrite u_xy in iu.
+      apply couple in iu.
+      induction iu as [i_x | i_xy].
+      * rewrite i_x in ji.
+        apply single in ji.
+        subst j.
+        apply (or_introl xX).
+      * subst i.
+        apply couple in ji.
+        induction ji as [j_x | j_y] .
+        subst j; apply(or_introl xX).
+        subst j; apply(or_intror yY).
+    - exists x; exists y.
+      apply (conj xX (conj yY u_xy)).
+Qed.
+
+
+Lemma prop_implies_func (A : set) (P : set -> set -> Prop) :
+  (forall x, x ∈ A -> exists !y, (P x y)) ->
+  (exists f, func f /\ Dom f = A /\ forall x, x ∈ A ->(P x (Value f x))).
+Proof.
+  intro H0.
+  specialize (Replacement P A H0) as H.
+  induction H as [B H].
+
+  assert (funcf : func ({ A × B ; fun u => exists x y, u = <|x,y|> /\ P x y})).
+  intros x x_domf.
+  apply dom in x_domf.
+  induction x_domf as [y H1].
+  exists y.
+  apply (conj H1).
+  apply class in H1.
+  induction H1 as [L R].
+  apply product in L.
+  induction L as [x_ L]; induction L as [y_ L].
+  induction L as [xA L]; induction L as [yB xyxy].
+  apply eq_OrderPair in xyxy; induction xyxy; subst x_ y_.
+  induction R as [x_ R]; induction R as [y_ R].
+  induction R as [xyxy Pxy].
+  apply eq_OrderPair in xyxy; induction xyxy; subst x_ y_.
+  intros y' H1.
+  apply class in H1.
+  induction H1 as [L R].
+  apply product in L.
+  induction L as [x_ L]; induction L as [y_ L].
+  induction L as [_ L]; induction L as [y_B xyxy].
+  apply eq_OrderPair in xyxy; induction xyxy; subst x_ y_.
+  induction R as [x_ R]; induction R as [y_ R].
+  induction R as [xyxy Pxy'].
+  apply eq_OrderPair in xyxy; induction xyxy; subst x_ y_.
+  specialize (H0 x xA).
+  induction H0 as [y0 H0].
+  induction H0 as [Pxy0 H0].
+  apply (H0 y) in Pxy.
+  apply (H0 y' ) in Pxy'.
+  by subst y0 y'.
+
+  exists ({ A × B ; fun u => exists x y, u = <|x,y|> /\ P x y}) .
+  apply (conj funcf).
+  split.
+  + apply Extensionality => a.
+    split => [H2 | H1].
+    - apply dom in H2.
+      induction H2 as [b H2].
+      apply class in H2.
+      induction H2 as [H2 _].
+      apply product in H2.
+      induction H2 as [x]; induction H1 as [y].
+      induction H1 as [xA]; induction H1 as [_ abcy].
+      by apply eq_OrderPair in abcy; induction abcy; subst x y.
+    - rewrite dom.
+      specialize (H a H1).
+      induction H as [b H].
+      induction H as [bB Pab].
+      exists b.
+      apply class.
+      split.
+      * apply product.
+        by exists a; exists b.
+      * by exists a; exists b.
+  + intros a aA.
+    specialize (H0 a aA) as H3.
+    specialize (H a aA).
+    induction H as [b]; induction H as [bB Pab].
+    induction H3 as [b_]; induction H as [_ H].
+    specialize (H b Pab) as bb_.
+    assert (b_fa : b = Value ({A × B; fun u : set => exists x y : set, u = <| x, y |> /\ P x y}) a).
+    apply (eq_value funcf).
+    apply class.
+    split.
+    apply product.
+    by exists a; exists b.
+    by exists a; exists b.
+    by rewrite <- b_fa.
+Qed.      
+      
+
+        
+Definition Reverse (R : Rel) :=
+  {(Ran R) × (Dom  R)  ; fun u => exists x y, u = <|y,x|> /\ <|x,y|> ∈ R}.
+
+Theorem reverse (R : Rel) :
+  forall x y, <|x,y|> ∈ (Reverse R) <-> <|y,x|> ∈ R.
+Proof.
+  intros x y.
+  rewrite class.
+  split => [H | H].
+  + induction H as [_ H].    
+    induction H as [x_]; induction H as [y_].
+    induction H as [xyxy xy_R].
+    by apply eq_OrderPair in xyxy; induction xyxy; subst x_ y_.
+  + split.
+    - apply product.
+      exists x; exists y.
+      rewrite ran.
+      rewrite dom.
+      split.
+      by exists y.
+      split.
+      by exists x.
+      done.          
+    - by exists y; exists x.
+Qed.
+
+
+Definition Composition (G F : Rel) : Rel :=
+  {(Dom F) × (Ran G) ; fun u => exists x y z, u = <|x,z|> /\ <|x,y|> ∈ F /\ <|y,z|> ∈ G }.
+Notation "G ○ F" := (Composition G F) (at level 10).
+Theorem composition {G F} :
+    forall u, u ∈ (G ○ F) <-> exists x y z, u = <|x,z|> /\ <|x,y|> ∈ F /\ <|y,z|> ∈ G.
+Proof.
+  intro u.
+  rewrite class.
+  split => [H | H].
+  + apply H.
+  + induction H as [x]; induction H as [y]; induction H as [z].
+    induction H as [u_xz]; induction H as [xy_F yz_G].
+    split.
+    - rewrite product.
+      exists x; exists z.
+      split.
+      * rewrite dom.
+        exists y.
+        apply xy_F.
+      * split.
+        rewrite ran .
+        exists y.
+        apply yz_G.
+        done.
+    - exists x; exists y; exists z.
+      apply (conj u_xz (conj xy_F yz_G)) .
+Qed.
+  
+
+
+
+Definition eqClass {R : Rel} {A : set} (H : equivalence R A) (x : set) :=
+  { A ; fun y => <|x,y|> ∈ R}.
+
+Theorem eqclass  {R : Rel} {A : set} {H : equivalence R A} {x : set} :
+  forall y, y ∈      (eqClass H x)      <->   y   ∈ A   /\      <|x,y|>    ∈     R.
+Proof.
+  intro y.
+  by rewrite class.
+Qed.
+    
+
+
+
+
+
+    
+Definition is_eqClass {R : Rel} {A : set} (H : equivalence R A) (x y : set) :=
+  y = (eqClass H x).
+
+Theorem unique_eqClass {R : Rel} {A : set} (H : equivalence R A):
+  forall x, x ∈ A -> exists !y, (is_eqClass H) x y.
+Proof.
+  intros x xA.
+  exists (eqClass H x).
+  split.
+  + done.
+  + unfold is_eqClass.
+    intros y H1.
+    done.
+Qed.
+
+Theorem exists_quotiention {R : Rel} {A : set} (H : equivalence R A) :
+  exists U, forall u, u ∈ U <->exists x, x ∈ A /\ u = eqClass H x. 
+Proof.
+  specialize (unique_eqClass H)  as h.
+  specialize (prop_implies_func A (is_eqClass H) h) as H0.
+  induction H0 as [f H0].
+  induction H0 as [funcf H0].
+  induction H0 as [domA H0].
+  exists (Ran f).
+  intro u.
+  split => [H1 | H1].
+  + apply ran in H1.
+    induction H1 as [x xuf].
+    exists x.
+    split.
+    - rewrite <- domA.
+      rewrite dom.
+      by exists u.
+    - apply (eq_value funcf) in xuf as u_Hx.
+      rewrite u_Hx.
+      apply H0.
+      rewrite <- domA.
+      apply dom.
+      by exists u.
+  + induction H1 as [x H1].
+    induction H1 as [xA u_Hx].
+    apply ran.
+    assert (xA_ : x ∈ A) by done.
+    rewrite <- domA in xA.
+    apply dom in xA.
+    induction xA as [y xy_f].
+    apply (eq_value funcf) in xy_f as y_fx.
+    specialize (H0 x xA_).
+    exists x.
+    apply (eq_value funcf).
+    by subst y u.
+Qed.    
+
+
+Definition Quotiention (R : Rel) (A : set) (H : equivalence R A) :=
+  Class (fun u => exists x, x ∈ A /\ u = eqClass H x) (exists_quotiention H).
+
+
+Theorem quotiention {R : Rel} {A : set} {H : equivalence R A} :
+  forall u, u ∈ (Quotiention R A H) <-> exists x, x ∈ A /\ u = (eqClass H x).
+Proof.
+  intro u.
+  by rewrite class.
+Qed.
+
+
+Definition Isomorphism F A B R G := 
+  Bijection F A B /\ 
+  forall x y, x ∈ A -> y ∈ A -> <|x,y|> ∈ R <-> 
+  <|Value F x , Value F y|> ∈ G.
+Notation "[ A , R ] ≅ [ B , G ]" := (exists F, Isomorphism F A B R G)(at level 10).
